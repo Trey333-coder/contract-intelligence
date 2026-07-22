@@ -1,0 +1,49 @@
+name: Atropa Live Workbook Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      rpc:
+        description: "PulseChain RPC endpoints, comma-separated"
+        required: false
+        default: "https://rpc-pulsechain.g4mm4.io,https://pulsechain-rpc.publicnode.com,https://rpc.pulsechain.com"
+  schedule:
+    - cron: "43 7 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run read-only Atropa live pull
+        run: node scripts/atropa-live-pull.mjs
+        env:
+          PULSE_RPC: ${{ inputs.rpc }}
+          TOKENS_FILE: data/atropa-tokens.json
+          OUT_DIR: data
+
+      - name: Publish live data beside the website
+        run: |
+          cp data/atropa-live.json public/atropa-live.json
+          cp data/atropa-summary.md public/atropa-summary.md
+
+      - name: Commit live data
+        run: |
+          git config user.name "atropa-live-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/atropa-live.json data/atropa-summary.md public/atropa-live.json public/atropa-summary.md
+          git diff --cached --quiet || git commit -m "Atropa live data $(date -u +%Y-%m-%dT%H:%M)"
+          git push
+
+      - name: Add summary to workflow run
+        run: cat data/atropa-summary.md >> "$GITHUB_STEP_SUMMARY"
