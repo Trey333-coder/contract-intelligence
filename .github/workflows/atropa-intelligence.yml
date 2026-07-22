@@ -1,0 +1,33 @@
+name: Atropa Contract Intelligence
+on:
+  workflow_dispatch:
+    inputs:
+      depth:
+        description: Discovery depth (0-3)
+        required: false
+        default: "1"
+  schedule:
+    - cron: "17 7 * * 1"
+permissions:
+  contents: write
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm test
+      - name: Read-only scan and analysis
+        run: npm run all
+        env:
+          DISCOVERY_DEPTH: ${{ inputs.depth || '1' }}
+          CONCURRENCY: "4"
+      - name: Commit generated intelligence
+        run: |
+          git config user.name "atropa-intelligence-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data reports public/contracts.json
+          git diff --cached --quiet || git commit -m "Atropa intelligence $(date -u +%Y-%m-%dT%H:%M)"
+          git push
