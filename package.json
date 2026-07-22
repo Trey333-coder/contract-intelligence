@@ -1,0 +1,16 @@
+{
+  "name": "atropa-contract-intelligence-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only PulseChain contract discovery and analysis for the Atropa ecosystem.",
+  "scripts": {
+    "scan": "node scripts/scan.mjs",
+    "analyze": "node scripts/analyze.mjs",
+    "build": "node scripts/build-site.mjs",
+    "all": "node scripts/scan.mjs && node scripts/analyze.mjs && node scripts/build-site.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
