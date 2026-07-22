@@ -1,5 +1,53 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Atropa Contract Intelligence</title><link rel="stylesheet" href="app.css"></head><body>
-<header><h1>Atropa Contract Intelligence</h1><p>Read-only discovery, ABI-first function analysis, Unicode intelligence, relationships, and risk evidence.</p></header>
-<main><section class="controls"><input id="q" placeholder="Search name, reading, meaning, address, selector, or family…"><select id="family"><option value="">All families</option></select><span id="count"></span></section><section id="summary" class="summary"></section><section id="results"></section></main>
-<template id="card"><article><div class="top"><div><h2></h2><code class="address"></code></div><span class="family"></span></div><div class="grid"></div><div class="metadata"></div><details><summary>Functions, risks, and evidence</summary><div class="details"></div></details></article></template>
-<script type="module" src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Atropa Contract Intelligence</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header>
+  <div>
+    <h1>Atropa Contract Intelligence</h1>
+    <p>Read-only discovery, ABI-first function analysis, Unicode intelligence, relationships, and risk evidence.</p>
+  </div>
+  <nav class="resource-bar" aria-label="Project resources">
+    <a class="resource-link" href="downloads/Atropa_Ecosystem_v2_live_pull_ready.xlsx" download>Download ecosystem workbook</a>
+    <a class="resource-link" href="atropa-summary.md" target="_blank" rel="noopener">Open live-pull summary</a>
+    <span id="liveStatus" class="live-status">Live data: checking…</span>
+  </nav>
+</header>
+<main>
+  <section class="controls" aria-label="Contract search controls">
+    <input id="q" autocomplete="off" spellcheck="false" placeholder="Search name, reading, meaning, address, selector, or family…">
+    <select id="family" aria-label="Filter by contract family"><option value="">All families</option></select>
+    <select id="pageSize" aria-label="Results per page">
+      <option value="10">10 per page</option>
+      <option value="20" selected>20 per page</option>
+      <option value="50">50 per page</option>
+    </select>
+    <span id="count" aria-live="polite"></span>
+  </section>
+  <section id="summary" class="summary"></section>
+  <section id="results"></section>
+  <nav id="pager" class="pager" aria-label="Result pages"></nav>
+</main>
+<template id="card">
+  <article class="contract-card">
+    <div class="top">
+      <div class="identity">
+        <div class="title-row"><h2></h2><button class="copy copy-name" type="button">Copy name</button></div>
+        <div class="address-row"><code class="address"></code><button class="copy copy-address" type="button">Copy</button></div>
+      </div>
+      <span class="family"></span>
+    </div>
+    <div class="grid"></div>
+    <div class="risk-strip"></div>
+    <div class="tabs" role="tablist"></div>
+    <div class="tab-panel"></div>
+  </article>
+</template>
+<script type="module" src="app.js"></script>
+</body>
+</html>

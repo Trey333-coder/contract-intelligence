@@ -87,3 +87,30 @@ Piece 2 adds:
 - Private-use and control-character warnings.
 
 After uploading this package, run **Atropa Contract Intelligence** at discovery depth `0`, then run **Deploy Atropa Intelligence UI**.
+
+## Piece 3 — Compact UI + workbook/live-data integration
+
+Piece 3 adds:
+
+- Compact summary-first contract cards.
+- Tabs for Overview, Functions, Relationships, Risks, Unicode, and Evidence.
+- Selector groups for verified ABI, resolved fallback, ambiguous, and unknown results.
+- Copy buttons, exact-address mode, collapsible related contracts, and pagination.
+- Per-contract Markdown reports copied into the deployed Pages site.
+- The February 27, 2025 ecosystem workbook as a downloadable reference:
+  `public/downloads/Atropa_Ecosystem_v2_live_pull_ready.xlsx`.
+- A separate **Atropa Live Workbook Data** workflow that refreshes read-only on-chain supply, DEX market data, and mint-into-LP registry evidence.
+- Optional live badges in the website when `public/atropa-live.json` has been generated.
+
+### Workbook and live-data workflow
+
+The included workbook preserves the original snapshot and clearly distinguishes snapshot values from fields that the live pull can verify. It does not invent circulating supply, minted supply, burned supply, or mint/burn history.
+
+Run:
+
+1. **Actions → Atropa Live Workbook Data → Run workflow**.
+2. Wait for `data/atropa-live.json` and `data/atropa-summary.md` to be committed.
+3. The Pages workflow deploys the matching files under `public/` automatically.
+4. The website then shows the live-pull timestamp, contracts alive, and armed LP-registry count.
+
+The downloadable `.xlsx` remains the preserved snapshot/live-pull-ready workbook. The JSON is the current machine-readable live layer.
