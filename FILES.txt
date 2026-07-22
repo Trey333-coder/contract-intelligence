@@ -1,24 +1,13 @@
-./.github/workflows/atropa-intelligence.yml
-./.github/workflows/pages.yml
-./FILES.txt
-./README.md
-./data/atropa-tokens.json
-./package.json
-./public/app.css
-./public/app.js
-./public/contracts.json
-./public/index.html
-./scripts/analyze.mjs
-./scripts/atropa-live-pull.mjs
-./scripts/build-site.mjs
-./scripts/lib/abi.mjs
-./scripts/lib/bytecode.mjs
-./scripts/lib/classify.mjs
-./scripts/lib/config.mjs
-./scripts/lib/explorer.mjs
-./scripts/lib/io.mjs
-./scripts/lib/rpc.mjs
-./scripts/lib/unicode.mjs
-./scripts/scan.mjs
-./scripts/serve.mjs
-./test/core.test.mjs
+Atropa Contract Intelligence Bot — Piece 2
+
+.github/workflows/atropa-intelligence.yml  scheduled/manual read-only analyzer
+.github/workflows/pages.yml               GitHub Pages deployment
+scripts/scan.mjs                          RPC/explorer discovery
+scripts/analyze.mjs                       ABI-first analysis and reports
+scripts/lib/selector-resolver.mjs         public selector cache + ABI cross-check
+scripts/lib/unicode.mjs                   Unicode/script/transliteration intelligence
+public/index.html                         search interface
+public/app.js                             exact/related search and detailed rendering
+public/app.css                            responsive UI and Unicode fallbacks
+data/atropa-tokens.json                   292-contract seed catalogue
+test/*.test.mjs                           offline unit tests

@@ -73,3 +73,17 @@ Discovery depth defaults to 1. Start with `0` for a faster seed-only scan.
 - Selector collisions are possible.
 - Embedded `PUSH20` constants are clues, not definitive relationships.
 - Exact V1/V2/V3/V4 and recipe classification requires verified family signatures/ABIs or confirmed contract behavior. The project intentionally fails closed until those dictionaries are added.
+
+## Piece 2 — Exact Search, Unicode Intelligence, ABI-First Explanation
+
+Piece 2 adds:
+
+- Exact-address results separated from directly related contracts.
+- Verified explorer ABI functions and ABI-confirmed selector signatures.
+- Cached 4byte.directory fallback candidates for unresolved selectors.
+- Confidence/source labels for every resolved selector.
+- Original and NFKC-normalized metadata, script detection, code-point fallback, transliteration, and meaning hints.
+- Explicit `ލޮލް` → `lol` contextual reading.
+- Private-use and control-character warnings.
+
+After uploading this package, run **Atropa Contract Intelligence** at discovery depth `0`, then run **Deploy Atropa Intelligence UI**.
