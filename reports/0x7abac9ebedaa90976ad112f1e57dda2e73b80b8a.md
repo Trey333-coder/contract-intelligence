@@ -2,51 +2,76 @@
 
 - Address: `0x7abac9ebedaa90976ad112f1e57dda2e73b80b8a`
 - Classification: **unknown_contract** (low)
-- Verified source: **no**
+- Verified source: **yes**
 - Bytecode size: **3767 bytes**
 
-## Metadata
+## Metadata intelligence
 
-- Name: The Tigard Foundation
+- Original name: The Tigard Foundation
+- Normalized name: The Tigard Foundation
+- Transliteration: The Tigard Foundation
+- Meaning hint: -
+- Script(s): Latin
+- Safe code-point fallback: U+0054 U+0068 U+0065 U+0020 U+0054 U+0069 U+0067 U+0061 U+0072 U+0064 U+0020 U+0046 U+006F U+0075 U+006E U+0064 U+0061 U+0074 U+0069 U+006F U+006E
 - Symbol: AD
 - Decimals: 18
 - Total supply raw: 61221608756835714843090504528207427222789504185105082751888447059239448821913
-- Scripts: Latin
 
 ## Evidence
 
 - No family-specific evidence.
 
-## Functions/selectors
+## Runtime selectors
 
-- `0x03afad01` — unknown
-- `0x06fdde03` — name()
-- `0x0be6bab5` — unknown
-- `0x14bef829` — unknown
-- `0x18160ddd` — totalSupply()
-- `0x192193b9` — unknown
-- `0x2b83b1fc` — unknown
-- `0x2c8eb5af` — unknown
-- `0x313ce567` — decimals()
-- `0x36030219` — unknown
-- `0x38bf3cfa` — unknown
-- `0x41a3942e` — unknown
-- `0x43000815` — unknown
-- `0x4e487b71` — unknown
-- `0x604a6fa9` — unknown
-- `0x666e1b39` — unknown
-- `0x6fb7329c` — unknown
-- `0x7065cb48` — unknown
-- `0x70a08231` — balanceOf(address)
-- `0x72bd72b8` — unknown
-- `0x8da5cb5b` — owner()
-- `0x90b23441` — unknown
-- `0x95d89b41` — symbol()
-- `0xa5f7c148` — unknown
-- `0xd3dc2a0f` — unknown
-- `0xd5abeb01` — unknown
-- `0xf4e6c93f` — unknown
-- `0xffffffff` — unknown
+- `0x03afad01` — unknown (unknown; 4byte.directory)
+- `0x06fdde03` — name() (verified_abi; verified explorer ABI)
+- `0x0be6bab5` — unknown (unknown; 4byte.directory)
+- `0x14bef829` — unknown (unknown; 4byte.directory)
+- `0x18160ddd` — totalSupply() (verified_abi; verified explorer ABI)
+- `0x192193b9` — unknown (unknown; 4byte.directory)
+- `0x2b83b1fc` — unknown (unknown; 4byte.directory)
+- `0x2c8eb5af` — unknown (unknown; 4byte.directory)
+- `0x313ce567` — decimals() (verified_abi; verified explorer ABI)
+- `0x36030219` — unknown (unknown; 4byte.directory)
+- `0x38bf3cfa` — unknown (unknown; 4byte.directory)
+- `0x41a3942e` — unknown (unknown; 4byte.directory)
+- `0x43000815` — unknown (unknown; 4byte.directory)
+- `0x4e487b71` — Panic(uint256) (public_database; 4byte.directory)
+- `0x604a6fa9` — unknown (unknown; 4byte.directory)
+- `0x666e1b39` — unknown (unknown; 4byte.directory)
+- `0x6fb7329c` — unknown (unknown; 4byte.directory)
+- `0x7065cb48` — addOwner(address) (verified_abi; verified explorer ABI)
+- `0x70a08231` — balanceOf(address) (verified_abi; verified explorer ABI)
+- `0x72bd72b8` — unknown (unknown; 4byte.directory)
+- `0x8da5cb5b` — owner() (verified_abi; verified explorer ABI)
+- `0x90b23441` — unknown (unknown; 4byte.directory)
+- `0x95d89b41` — symbol() (verified_abi; verified explorer ABI)
+- `0xa5f7c148` — unknown (unknown; 4byte.directory)
+- `0xd3dc2a0f` — unknown (unknown; 4byte.directory)
+- `0xd5abeb01` — unknown (unknown; 4byte.directory)
+- `0xf4e6c93f` — unknown (unknown; 4byte.directory)
+- `0xffffffff` — unknown (ambiguous; 4byte.directory) candidates: uWjK9(uint256) | LOCK8605463013() | test266151307()
+
+## Verified ABI functions
+
+- `GetMarketRate(address)`
+- `MotzkinPrime()`
+- `Purchase(address,int256)`
+- `Redeem(address,int256)`
+- `Xiao()`
+- `addOwner(address)`
+- `balanceOf(address)`
+- `decimals()`
+- `maxSupply()`
+- `mintToCap()`
+- `name()`
+- `owner()`
+- `owner(address)`
+- `renounceOwnership(address)`
+- `symbol()`
+- `totalSupply()`
+- `transfer(address,int256)`
+- `transferFrom(address,address,int256)`
 
 ## Relationships
 
@@ -61,4 +86,4 @@
 
 ## Verification boundary
 
-Selectors and successful eth_call probes are evidence, but unverified bytecode does not reveal original variable names or every execution condition.
+Verified ABI matches are strong evidence. Public selector databases can be ambiguous, and unverified bytecode does not reveal every execution condition.

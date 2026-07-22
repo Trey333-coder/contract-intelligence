@@ -5,45 +5,53 @@
 - Verified source: **no**
 - Bytecode size: **6781 bytes**
 
-## Metadata
+## Metadata intelligence
 
-- Name: The Penrose Society
+- Original name: The Penrose Society
+- Normalized name: The Penrose Society
+- Transliteration: The Penrose Society
+- Meaning hint: -
+- Script(s): Latin
+- Safe code-point fallback: U+0054 U+0068 U+0065 U+0020 U+0050 U+0065 U+006E U+0072 U+006F U+0073 U+0065 U+0020 U+0053 U+006F U+0063 U+0069 U+0065 U+0074 U+0079
 - Symbol: PENROSE
 - Decimals: 18
 - Total supply raw: 666000000000000000000
-- Scripts: Latin
 
 ## Evidence
 
 - ERC-20 selector set
 
-## Functions/selectors
+## Runtime selectors
 
-- `0x06fdde03` — name()
-- `0x095ea7b3` — approve(address,uint256)
-- `0x18160ddd` — totalSupply()
-- `0x23b872dd` — transferFrom(address,address,uint256)
-- `0x313ce567` — decimals()
-- `0x39509351` — unknown
-- `0x42966c68` — burn(uint256)
-- `0x43000815` — unknown
-- `0x616c6c65` — unknown
-- `0x65000000` — unknown
-- `0x65206265` — unknown
-- `0x65656473` — unknown
-- `0x69656e74` — unknown
-- `0x70a08231` — balanceOf(address)
-- `0x715018a6` — renounceOwnership()
-- `0x72656173` — unknown
-- `0x79cc6790` — burnFrom(address,uint256)
-- `0x8161182a` — unknown
-- `0x8da5cb5b` — owner()
-- `0x95d89b41` — symbol()
-- `0xa457c2d7` — unknown
-- `0xa9059cbb` — transfer(address,uint256)
-- `0xc4a11628` — unknown
-- `0xdd62ed3e` — allowance(address,address)
-- `0xf2fde38b` — transferOwnership(address)
+- `0x06fdde03` — name() (verified_dictionary; local signature dictionary)
+- `0x095ea7b3` — approve(address,uint256) (verified_dictionary; local signature dictionary)
+- `0x18160ddd` — totalSupply() (verified_dictionary; local signature dictionary)
+- `0x23b872dd` — transferFrom(address,address,uint256) (verified_dictionary; local signature dictionary)
+- `0x313ce567` — decimals() (verified_dictionary; local signature dictionary)
+- `0x39509351` — increaseAllowance(address,uint256) (public_database; 4byte.directory)
+- `0x42966c68` — burn(uint256) (verified_dictionary; local signature dictionary)
+- `0x43000815` — unknown (unknown; 4byte.directory)
+- `0x616c6c65` — unknown (unknown; 4byte.directory)
+- `0x65000000` — unknown (unknown; 4byte.directory)
+- `0x65206265` — unknown (unknown; 4byte.directory)
+- `0x65656473` — unknown (unknown; 4byte.directory)
+- `0x69656e74` — unknown (unknown; 4byte.directory)
+- `0x70a08231` — balanceOf(address) (verified_dictionary; local signature dictionary)
+- `0x715018a6` — renounceOwnership() (verified_dictionary; local signature dictionary)
+- `0x72656173` — unknown (unknown; 4byte.directory)
+- `0x79cc6790` — burnFrom(address,uint256) (verified_dictionary; local signature dictionary)
+- `0x8161182a` — unknown (unknown; 4byte.directory)
+- `0x8da5cb5b` — owner() (verified_dictionary; local signature dictionary)
+- `0x95d89b41` — symbol() (verified_dictionary; local signature dictionary)
+- `0xa457c2d7` — decreaseAllowance(address,uint256) (public_database; 4byte.directory)
+- `0xa9059cbb` — transfer(address,uint256) (verified_dictionary; local signature dictionary)
+- `0xc4a11628` — unknown (unknown; 4byte.directory)
+- `0xdd62ed3e` — allowance(address,address) (verified_dictionary; local signature dictionary)
+- `0xf2fde38b` — transferOwnership(address) (verified_dictionary; local signature dictionary)
+
+## Verified ABI functions
+
+- No verified ABI available.
 
 ## Relationships
 
@@ -58,4 +66,4 @@
 
 ## Verification boundary
 
-Selectors and successful eth_call probes are evidence, but unverified bytecode does not reveal original variable names or every execution condition.
+Verified ABI matches are strong evidence. Public selector databases can be ambiguous, and unverified bytecode does not reveal every execution condition.

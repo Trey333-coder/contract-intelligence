@@ -1,0 +1,1895 @@
+{
+  "36030219": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.576Z"
+  },
+  "36600461": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.534Z"
+  },
+  "37396386": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.904Z"
+  },
+  "39509351": {
+    "candidates": [
+      "increaseAllowance(address,uint256)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.421Z"
+  },
+  "43000812": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.422Z"
+  },
+  "43000815": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.134Z"
+  },
+  "43000819": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.050Z"
+  },
+  "57600190": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.954Z"
+  },
+  "57600281": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.937Z"
+  },
+  "57604051": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.024Z"
+  },
+  "57611162": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.567Z"
+  },
+  "57611762": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.154Z"
+  },
+  "57611862": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.299Z"
+  },
+  "57613662": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.119Z"
+  },
+  "57806379": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.151Z"
+  },
+  "57806395": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.778Z"
+  },
+  "57806399": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.130Z"
+  },
+  "57808604": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.686Z"
+  },
+  "57818110": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.346Z"
+  },
+  "57829003": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.960Z"
+  },
+  "60048036": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.373Z"
+  },
+  "60076005": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.665Z"
+  },
+  "60168361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.212Z"
+  },
+  "60208361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.065Z"
+  },
+  "60268361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.417Z"
+  },
+  "60608301": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.343Z"
+  },
+  "61016085": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.552Z"
+  },
+  "61137656": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.499Z"
+  },
+  "65000000": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.795Z"
+  },
+  "65206265": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.802Z"
+  },
+  "65656473": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.803Z"
+  },
+  "72656173": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.131Z"
+  },
+  "81611153": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.602Z"
+  },
+  "81846115": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.376Z"
+  },
+  "81856020": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.405Z"
+  },
+  "81858561": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.685Z"
+  },
+  "82611317": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.401Z"
+  },
+  "82611407": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.344Z"
+  },
+  "82612724": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.302Z"
+  },
+  "82826123": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.092Z"
+  },
+  "83611577": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.902Z"
+  },
+  "84828501": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.456Z"
+  },
+  "85828601": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.680Z"
+  },
+  "86146103": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.690Z"
+  },
+  "86826020": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.385Z"
+  },
+  "86836020": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.945Z"
+  },
+  "88828901": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.375Z"
+  },
+  "91906115": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.959Z"
+  },
+  "91906117": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.642Z"
+  },
+  "91906122": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.289Z"
+  },
+  "91906125": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.111Z"
+  },
+  "91906127": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.604Z"
+  },
+  "91906128": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.945Z"
+  },
+  "91906141": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.950Z"
+  },
+  "93929190": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.439Z"
+  },
+  "97136919": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.464Z"
+  },
+  "616c6c65": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.424Z"
+  },
+  "69656e74": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.803Z"
+  },
+  "c4a11628": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.816Z"
+  },
+  "a457c2d7": {
+    "candidates": [
+      "decreaseAllowance(address,uint256)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:47.816Z"
+  },
+  "51b83bc4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.085Z"
+  },
+  "b4c9d165": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.136Z"
+  },
+  "61041f56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.234Z"
+  },
+  "61040d56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.412Z"
+  },
+  "a4566950": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.425Z"
+  },
+  "5310f535": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.433Z"
+  },
+  "ffffffff": {
+    "candidates": [
+      "uWjK9(uint256)",
+      "LOCK8605463013()",
+      "test266151307()"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.434Z"
+  },
+  "423a35c7": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.671Z"
+  },
+  "575f80fd": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.675Z"
+  },
+  "4a50bbf3": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.686Z"
+  },
+  "72adb869": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.923Z"
+  },
+  "611a7a56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.949Z"
+  },
+  "467c4e68": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:48.959Z"
+  },
+  "92cbcc2b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.007Z"
+  },
+  "02687614": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.230Z"
+  },
+  "6973736f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.286Z"
+  },
+  "5f838361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.344Z"
+  },
+  "9864736f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.474Z"
+  },
+  "5b19ec68": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.540Z"
+  },
+  "9061215d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.680Z"
+  },
+  "8161182a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.745Z"
+  },
+  "3b297416": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.811Z"
+  },
+  "81610ffc": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.956Z"
+  },
+  "860bb34a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:49.986Z"
+  },
+  "d98bc26c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.023Z"
+  },
+  "76fade90": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.058Z"
+  },
+  "51cff2f4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.097Z"
+  },
+  "565b6040": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.256Z"
+  },
+  "aed6f78e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.333Z"
+  },
+  "309bbc6d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.357Z"
+  },
+  "d26d94fc": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.476Z"
+  },
+  "7393e048": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.566Z"
+  },
+  "ab4f9718": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.624Z"
+  },
+  "565b8401": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.677Z"
+  },
+  "9806661a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.754Z"
+  },
+  "b1896798": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.816Z"
+  },
+  "8ec3e654": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:50.931Z"
+  },
+  "6402de26": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.015Z"
+  },
+  "a7bc52aa": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.152Z"
+  },
+  "8264736f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.280Z"
+  },
+  "adce3881": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.335Z"
+  },
+  "582739a6": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.348Z"
+  },
+  "5805afa8": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.417Z"
+  },
+  "08c6de3c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.580Z"
+  },
+  "7083e2e9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.610Z"
+  },
+  "1d325708": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.660Z"
+  },
+  "64736f6c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.678Z"
+  },
+  "894279d1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.819Z"
+  },
+  "d4e78272": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:51.952Z"
+  },
+  "e31d55bb": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.022Z"
+  },
+  "9b9784b2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.097Z"
+  },
+  "565b60ff": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.224Z"
+  },
+  "565b611a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.262Z"
+  },
+  "565b8160": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.340Z"
+  },
+  "565b5060": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.382Z"
+  },
+  "826113b1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.611Z"
+  },
+  "937eee25": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.657Z"
+  },
+  "565b8161": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.671Z"
+  },
+  "565b9291": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.901Z"
+  },
+  "565b9050": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:52.922Z"
+  },
+  "b5095168": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.013Z"
+  },
+  "3148f14f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.278Z"
+  },
+  "575f8114": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.338Z"
+  },
+  "565b6020": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.411Z"
+  },
+  "8261143f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.425Z"
+  },
+  "d760dc8b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.585Z"
+  },
+  "7bc07d4d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.689Z"
+  },
+  "87c6c406": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.817Z"
+  },
+  "21d7b0a5": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:53.960Z"
+  },
+  "0a1cc190": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.013Z"
+  },
+  "6107fd56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.137Z"
+  },
+  "9190611b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.232Z"
+  },
+  "7d6ccd4c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.235Z"
+  },
+  "9bc428a4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.473Z"
+  },
+  "2d5e1190": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.610Z"
+  },
+  "565b9150": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.652Z"
+  },
+  "a8c064db": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.678Z"
+  },
+  "565b9250": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.719Z"
+  },
+  "565b9350": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.737Z"
+  },
+  "e7e20d7a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.916Z"
+  },
+  "37d4fc84": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:54.999Z"
+  },
+  "611a0956": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.011Z"
+  },
+  "565b8252": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.184Z"
+  },
+  "8161222a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.245Z"
+  },
+  "3e49e0de": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.291Z"
+  },
+  "60ac510c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.464Z"
+  },
+  "8261085d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.486Z"
+  },
+  "6106d756": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.603Z"
+  },
+  "565b005b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.615Z"
+  },
+  "21343a9c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.686Z"
+  },
+  "6113bd56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.756Z"
+  },
+  "67381e96": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.858Z"
+  },
+  "65463dbf": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.938Z"
+  },
+  "7ba86b68": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.983Z"
+  },
+  "c2cd8d32": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:55.997Z"
+  },
+  "ee69a44c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.023Z"
+  },
+  "0df16473": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.063Z"
+  },
+  "5beef3fd": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.126Z"
+  },
+  "34b4a766": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.265Z"
+  },
+  "0719c8bc": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.353Z"
+  },
+  "0c5d6229": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.398Z"
+  },
+  "3cf862ba": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.569Z"
+  },
+  "4c60db9c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.625Z"
+  },
+  "53bf63bb": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.641Z"
+  },
+  "34fa07e0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.681Z"
+  },
+  "82611efe": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.781Z"
+  },
+  "732a2ccf": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.893Z"
+  },
+  "bbee9031": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:56.953Z"
+  },
+  "573d5f80": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.017Z"
+  },
+  "bc2b405c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.031Z"
+  },
+  "8161183f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.192Z"
+  },
+  "07a0b4a2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.270Z"
+  },
+  "fff6cae9": {
+    "candidates": [
+      "watch_tg_invmru_10b052bb(bool,address,bool)",
+      "sync()"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.348Z"
+  },
+  "423a35c6": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.447Z"
+  },
+  "57611e62": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.477Z"
+  },
+  "1e44232f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.569Z"
+  },
+  "94d8384b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.681Z"
+  },
+  "6106ff56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.695Z"
+  },
+  "610c3456": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.714Z"
+  },
+  "7c0c782c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.806Z"
+  },
+  "b2d8f889": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.970Z"
+  },
+  "29fc744c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:57.979Z"
+  },
+  "8361099b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.052Z"
+  },
+  "261602aa": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.185Z"
+  },
+  "9a8788c0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.253Z"
+  },
+  "a0192e7c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.290Z"
+  },
+  "a6667e18": {
+    "candidates": [
+      "RemoveWhitelist(address)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.338Z"
+  },
+  "e463fa6b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.457Z"
+  },
+  "fa6b1461": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.690Z"
+  },
+  "93125db5": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.707Z"
+  },
+  "601f8361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.805Z"
+  },
+  "3644e515": {
+    "candidates": [
+      "transfer_attention_tg_invmru_5d03c5b(address,bool)",
+      "transfer_attention_tg_invmru_9f2c315(uint256,bool,uint256)",
+      "fopwCDKKK()",
+      "DOMAIN_SEPARATOR()"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:58.959Z"
+  },
+  "565b5b5f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.004Z"
+  },
+  "7e0307cd": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.225Z"
+  },
+  "d505accf": {
+    "candidates": [
+      "watch_tg_invmru_168a06(bool,address,bool)",
+      "permit(address,address,uint256,uint256,uint8,bytes32,bytes32)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.239Z"
+  },
+  "7ecebe00": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.241Z"
+  },
+  "84b0196e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.297Z"
+  },
+  "610e2356": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.480Z"
+  },
+  "a2b8503b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.549Z"
+  },
+  "0568cb7d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.584Z"
+  },
+  "9490cfce": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.678Z"
+  },
+  "48b84f26": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.734Z"
+  },
+  "565b6105": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.853Z"
+  },
+  "1686f265": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.931Z"
+  },
+  "53df6e35": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:16:59.971Z"
+  },
+  "59307cf3": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.007Z"
+  },
+  "565b1015": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.122Z"
+  },
+  "7d1f22ba": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.227Z"
+  },
+  "82bf4c54": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.277Z"
+  },
+  "565b6110": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.346Z"
+  },
+  "919f5311": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.391Z"
+  },
+  "9f7574b5": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.467Z"
+  },
+  "d805b650": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.582Z"
+  },
+  "fd2d8083": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.640Z"
+  },
+  "a5d16c29": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.703Z"
+  },
+  "377de122": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.717Z"
+  },
+  "92c5bfc9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.785Z"
+  },
+  "612a1856": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.851Z"
+  },
+  "c00c82c2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.960Z"
+  },
+  "2c8eb5af": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:00.972Z"
+  },
+  "b61a722b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.014Z"
+  },
+  "ca9cf41c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.031Z"
+  },
+  "604a6fa9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.235Z"
+  },
+  "d3dc2a0f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.258Z"
+  },
+  "fa6bcfec": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.282Z"
+  },
+  "512ab7de": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.377Z"
+  },
+  "8184611a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.585Z"
+  },
+  "0d796e03": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.652Z"
+  },
+  "1cc2b74e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.689Z"
+  },
+  "5f7edb9a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.689Z"
+  },
+  "461f5a14": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.954Z"
+  },
+  "5761023b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:01.963Z"
+  },
+  "2f94f072": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.072Z"
+  },
+  "63461f5a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.144Z"
+  },
+  "7c06b109": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.216Z"
+  },
+  "79efd674": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.348Z"
+  },
+  "81b2a8e7": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.349Z"
+  },
+  "8242719f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.413Z"
+  },
+  "bb276933": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.631Z"
+  },
+  "bc6ce69b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.687Z"
+  },
+  "cf45a67f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.736Z"
+  },
+  "dcc48935": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.951Z"
+  },
+  "e11deae5": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:02.963Z"
+  },
+  "e2a92eef": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.009Z"
+  },
+  "d539394f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.032Z"
+  },
+  "fdc0a087": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.131Z"
+  },
+  "e4052538": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.225Z"
+  },
+  "ff61d989": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.274Z"
+  },
+  "f00692c2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.344Z"
+  },
+  "26f33719": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.581Z"
+  },
+  "461f5a82": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.660Z"
+  },
+  "f8784afe": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.693Z"
+  },
+  "4e145bf2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.712Z"
+  },
+  "518757ae": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.720Z"
+  },
+  "565b613a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.957Z"
+  },
+  "565b6136": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.970Z"
+  },
+  "565b6139": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:03.993Z"
+  },
+  "565b5b80": {
+    "candidates": [
+      "LEOERC20init(uint256)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.015Z"
+  },
+  "5dcf49e4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.239Z"
+  },
+  "60c97b69": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.260Z"
+  },
+  "612a5f56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.293Z"
+  },
+  "565b9392": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.344Z"
+  },
+  "c23b545f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.384Z"
+  },
+  "e2d50602": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.418Z"
+  },
+  "565b6102": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.562Z"
+  },
+  "fd462eed": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.613Z"
+  },
+  "fd97aee0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.677Z"
+  },
+  "461f5a83": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.677Z"
+  },
+  "825f8361": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:04.853Z"
+  },
+  "81612f36": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.012Z"
+  },
+  "575f6040": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.253Z"
+  },
+  "612d3856": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.329Z"
+  },
+  "5118149a": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.387Z"
+  },
+  "5f830185": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.417Z"
+  },
+  "565b8201": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.488Z"
+  },
+  "5c13dbf0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.629Z"
+  },
+  "5780601f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.720Z"
+  },
+  "7ab0960d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.742Z"
+  },
+  "df4c7406": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.769Z"
+  },
+  "e95b237f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.939Z"
+  },
+  "0947ec52": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:05.988Z"
+  },
+  "064c8c7c": {
+    "candidates": [
+      "Connect(address)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.017Z"
+  },
+  "0e0314a7": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.046Z"
+  },
+  "1e4fbdf7": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.258Z"
+  },
+  "1c06294e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.268Z"
+  },
+  "391434e3": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.277Z"
+  },
+  "2ed9461d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.292Z"
+  },
+  "118cdaa7": {
+    "candidates": [
+      "OwnableUnauthorizedAccount(address)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.346Z"
+  },
+  "3d99c779": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.416Z"
+  },
+  "4a1406b1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.427Z"
+  },
+  "4b637e8f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.436Z"
+  },
+  "4e487b71": {
+    "candidates": [
+      "Panic(uint256)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.447Z"
+  },
+  "452a42fb": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.623Z"
+  },
+  "51567fd3": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.725Z"
+  },
+  "3d9850d7": {
+    "candidates": [
+      "Write(address)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.743Z"
+  },
+  "565b6019": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.773Z"
+  },
+  "7dc7a0d9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.782Z"
+  },
+  "575f8315": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.894Z"
+  },
+  "5a030cef": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:06.962Z"
+  },
+  "78765ce1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.008Z"
+  },
+  "7e8f60e1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.056Z"
+  },
+  "97deb47b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.135Z"
+  },
+  "b40619de": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.273Z"
+  },
+  "b83187da": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.339Z"
+  },
+  "9ff43001": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.343Z"
+  },
+  "bb651874": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.412Z"
+  },
+  "cdf476c9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.582Z"
+  },
+  "c6de8f5e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.626Z"
+  },
+  "c2bea95f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.672Z"
+  },
+  "dc7d37ef": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.679Z"
+  },
+  "e602df05": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.769Z"
+  },
+  "ec442f05": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.941Z"
+  },
+  "f6671de4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:07.951Z"
+  },
+  "f9e978fb": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.043Z"
+  },
+  "e34ef7b6": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.076Z"
+  },
+  "4e80ca3d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.218Z"
+  },
+  "968d6952": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.290Z"
+  },
+  "8b4008b1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.334Z"
+  },
+  "1d97c9d0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.378Z"
+  },
+  "34c73884": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.476Z"
+  },
+  "3c3284d1": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.485Z"
+  },
+  "5780638b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.599Z"
+  },
+  "565b6001": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.649Z"
+  },
+  "03afad01": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.735Z"
+  },
+  "14bef829": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.911Z"
+  },
+  "192193b9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:08.985Z"
+  },
+  "2b83b1fc": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.049Z"
+  },
+  "38bf3cfa": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.115Z"
+  },
+  "41a3942e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.303Z"
+  },
+  "666e1b39": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.389Z"
+  },
+  "0be6bab5": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.504Z"
+  },
+  "6fb7329c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.567Z"
+  },
+  "72bd72b8": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.744Z"
+  },
+  "a5f7c148": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.848Z"
+  },
+  "7065cb48": {
+    "candidates": [
+      "addOwner(address)"
+    ],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.866Z"
+  },
+  "f4e6c93f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:09.983Z"
+  },
+  "e961e84d": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.007Z"
+  },
+  "d5abeb01": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.008Z"
+  },
+  "90b23441": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.067Z"
+  },
+  "c2a4276c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.118Z"
+  },
+  "816113d4": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.305Z"
+  },
+  "565b6103": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.395Z"
+  },
+  "73874df3": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.425Z"
+  },
+  "a535bb10": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.637Z"
+  },
+  "28a04d86": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.640Z"
+  },
+  "327fad14": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.697Z"
+  },
+  "8bd565cb": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.852Z"
+  },
+  "61040f56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.910Z"
+  },
+  "9909afed": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.938Z"
+  },
+  "bce3821f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:10.983Z"
+  },
+  "565b6112": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.057Z"
+  },
+  "b7cdb862": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.081Z"
+  },
+  "0393874c": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.082Z"
+  },
+  "94710cda": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.293Z"
+  },
+  "e8671f2f": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.324Z"
+  },
+  "02b0f467": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.332Z"
+  },
+  "576101a2": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.572Z"
+  },
+  "dd3b7a9b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.606Z"
+  },
+  "578063a0": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.722Z"
+  },
+  "297b1147": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.769Z"
+  },
+  "1249c58b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.853Z"
+  },
+  "53d06f94": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:11.986Z"
+  },
+  "57611c62": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.012Z"
+  },
+  "611e0d56": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.035Z"
+  },
+  "578063a9": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.281Z"
+  },
+  "53373c54": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.287Z"
+  },
+  "565b610b": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.551Z"
+  },
+  "0a504439": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.672Z"
+  },
+  "d3df2e3e": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.712Z"
+  },
+  "c7883f13": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.795Z"
+  },
+  "578063b7": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:12.819Z"
+  },
+  "829d0917": {
+    "candidates": [],
+    "source": "4byte.directory",
+    "checkedAt": "2026-07-22T13:17:13.150Z"
+  }
+}
