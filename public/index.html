@@ -21,18 +21,27 @@
 <main>
   <section class="controls" aria-label="Contract search controls">
     <input id="q" autocomplete="off" spellcheck="false" placeholder="Search name, reading, meaning, address, selector, or family…">
+    <button id="searchButton" class="control-button" type="button">Search</button>
+    <button id="clearButton" class="control-button" type="button">Clear</button>
     <select id="family" aria-label="Filter by contract family"><option value="">All families</option></select>
     <select id="pageSize" aria-label="Results per page">
       <option value="10">10 per page</option>
       <option value="20" selected>20 per page</option>
       <option value="50">50 per page</option>
     </select>
+    <button id="functionKeyButton" class="control-button key-button" type="button">Function key</button>
     <span id="count" aria-live="polite"></span>
   </section>
   <section id="summary" class="summary"></section>
   <section id="results"></section>
   <nav id="pager" class="pager" aria-label="Result pages"></nav>
 </main>
+<dialog id="functionKeyDialog" class="function-key-dialog">
+  <div class="dialog-head"><div><h2>Contract Function Key</h2><p>Plain-English meanings. On-chain behavior and verified source remain authoritative.</p></div><button id="closeFunctionKey" class="control-button" type="button">Close</button></div>
+  <div class="key-controls"><input id="functionKeySearch" placeholder="Filter by function, category, or meaning…"><select id="functionKeyCategory"><option value="">All categories</option></select></div>
+  <div class="key-legend"><span><b>Read-only</b> returns information without changing chain state.</span><span><b>State-changing</b> can alter balances, ownership, configuration, or relationships and requires a transaction.</span><span><b>Verified signature</b> identifies the function name and inputs; internal conditions still come from code.</span></div>
+  <div id="functionKeyEntries" class="function-key-entries"></div>
+</dialog>
 <template id="card">
   <article class="contract-card">
     <div class="top">

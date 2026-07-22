@@ -1,0 +1,293 @@
+{
+  "generatedAt": "2026-07-22T14:14:35.658Z",
+  "entries": [
+    {
+      "signature": "name()",
+      "category": "Metadata",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the contract or token name.",
+      "caution": "Display metadata only; it does not prove identity or legitimacy.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "symbol()",
+      "category": "Metadata",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the short token symbol.",
+      "caution": "Symbols can be duplicated across different contracts.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "decimals()",
+      "category": "Metadata",
+      "access": "Anyone (read-only)",
+      "effect": "Returns how raw integer token units are displayed as decimal amounts.",
+      "caution": "The on-chain value is authoritative for formatting this contract's units.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "totalSupply()",
+      "category": "Supply",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the current total supply recorded by the contract.",
+      "caution": "This is total supply, not necessarily circulating supply.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "balanceOf(address)",
+      "category": "Balances",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the token balance recorded for an address.",
+      "caution": "The returned value uses the token's raw units and decimals.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "allowance(address,address)",
+      "category": "Approvals",
+      "access": "Anyone (read-only)",
+      "effect": "Returns how many tokens an owner has authorized a spender to use.",
+      "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "approve(address,uint256)",
+      "category": "Approvals",
+      "access": "Token holder (state-changing)",
+      "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
+      "caution": "Approval does not move tokens immediately, but it grants spending authority.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "transfer(address,uint256)",
+      "category": "Transfers",
+      "access": "Token holder (state-changing)",
+      "effect": "Moves tokens from the caller to another address.",
+      "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "transferFrom(address,address,uint256)",
+      "category": "Transfers",
+      "access": "Approved spender (state-changing)",
+      "effect": "Moves tokens from one address to another using an allowance or other authorization.",
+      "caution": "Usually reduces allowance; custom contracts may behave differently.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "owner()",
+      "category": "Administration",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the address recognized as the owner or administrator.",
+      "caution": "Owner powers must be determined from the actual callable functions and source.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "transferOwnership(address)",
+      "category": "Administration",
+      "access": "Usually current owner (state-changing)",
+      "effect": "Transfers administrative ownership to another address.",
+      "caution": "Changes who may control owner-restricted functions.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "renounceOwnership()",
+      "category": "Administration",
+      "access": "Usually current owner (state-changing)",
+      "effect": "Sets ownership to no owner, commonly the zero address.",
+      "caution": "Often irreversible; verify implementation and pending-owner patterns.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "mint(address,uint256)",
+      "category": "Supply",
+      "access": "Contract-defined authority (state-changing)",
+      "effect": "Creates tokens and credits them to an address.",
+      "caution": "Authority, caps, cost, and conditions must be read from verified code or behavior.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "mint(uint256)",
+      "category": "Atropa / Supply",
+      "access": "Contract-defined caller (state-changing)",
+      "effect": "Requests creation of a specified amount under the contract's mint rules.",
+      "caution": "May require parent tokens, payment, multiplier cost, or other prerequisites.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "mint(address)",
+      "category": "AMM / Supply",
+      "access": "Liquidity provider or contract-defined caller (state-changing)",
+      "effect": "Commonly mints LP tokens to an address after assets are deposited into a pair.",
+      "caution": "Exact behavior depends on the contract family; do not assume it is ordinary token minting.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "burn(uint256)",
+      "category": "Supply",
+      "access": "Token holder or authorized caller (state-changing)",
+      "effect": "Destroys a specified amount of tokens under the contract's rules.",
+      "caution": "Burning generally cannot be reversed.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "burnFrom(address,uint256)",
+      "category": "Supply",
+      "access": "Approved or privileged caller (state-changing)",
+      "effect": "Destroys tokens held by another address using allowance or authority.",
+      "caution": "Check who is permitted to burn another holder's tokens.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "burn(address)",
+      "category": "AMM / Supply",
+      "access": "Liquidity holder or contract-defined caller (state-changing)",
+      "effect": "Commonly burns LP tokens and sends the underlying assets to an address.",
+      "caution": "Exact behavior depends on the pair or custom contract.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "Claim(uint256)",
+      "category": "Atropa / Redemption",
+      "access": "Token holder (state-changing)",
+      "effect": "Requests a claim or redemption for the specified amount.",
+      "caution": "The required token, output asset, burn behavior, and approval path must be verified for this contract.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "withdraw(uint256)",
+      "category": "Withdrawal",
+      "access": "Depositor or authorized caller (state-changing)",
+      "effect": "Withdraws a specified amount of an asset or recorded balance.",
+      "caution": "Asset type, fees, locks, and recipient rules depend on contract code.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "pause()",
+      "category": "Administration",
+      "access": "Privileged caller (state-changing)",
+      "effect": "Activates the contract's paused state.",
+      "caution": "May block transfers or other operations depending on implementation.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "unpause()",
+      "category": "Administration",
+      "access": "Privileged caller (state-changing)",
+      "effect": "Removes the paused state.",
+      "caution": "Scope depends on the contract implementation.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "implementation()",
+      "category": "Proxy",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the implementation address used by a proxy or upgrade pattern.",
+      "caution": "Analyze the implementation code as well as the proxy.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "upgradeTo(address)",
+      "category": "Proxy",
+      "access": "Privileged caller (state-changing)",
+      "effect": "Changes the implementation address used by an upgradeable contract.",
+      "caution": "Can materially change future behavior while preserving the same contract address.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "upgradeToAndCall(address,bytes)",
+      "category": "Proxy",
+      "access": "Privileged caller (state-changing)",
+      "effect": "Changes implementation and immediately executes initialization or migration data.",
+      "caution": "Powerful upgrade path; authorization and implementation must be reviewed.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "token0()",
+      "category": "AMM Pair",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the first asset address in a liquidity pair.",
+      "caution": "Token order affects reserve and swap calculations.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "token1()",
+      "category": "AMM Pair",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the second asset address in a liquidity pair.",
+      "caution": "Token order affects reserve and swap calculations.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "getReserves()",
+      "category": "AMM Pair",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the pair's recorded reserves and usually the last update timestamp.",
+      "caution": "Reserves are on-chain balances used by the AMM; price impact still depends on swap rules.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "swap(uint256,uint256,address,bytes)",
+      "category": "AMM Pair",
+      "access": "Anyone meeting pair rules (state-changing)",
+      "effect": "Requests output amounts from a liquidity pair and sends them to a recipient.",
+      "caution": "Requires sufficient input, invariant compliance, and may enable flash-swap callbacks.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "factory()",
+      "category": "AMM Pair",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the factory that created or governs the pair.",
+      "caution": "Useful for confirming whether an address is a recognized LP pair.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "count()",
+      "category": "Registry",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the number of entries recorded by a registry-like contract.",
+      "caution": "The meaning of each entry is defined by the contract; the chain-returned count should be preserved as reported.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "at(uint256)",
+      "category": "Registry",
+      "access": "Anyone (read-only)",
+      "effect": "Returns the registry entry address stored at a numeric index.",
+      "caution": "Index range and ordering come from the contract.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "get(address)",
+      "category": "Registry",
+      "access": "Anyone (read-only)",
+      "effect": "Returns registry data associated with an address.",
+      "caution": "Return structure varies by contract family and should be decoded from verified ABI when available.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "parent()",
+      "category": "Atropa Relationship",
+      "access": "Anyone (read-only)",
+      "effect": "Returns a parent or related contract address where implemented.",
+      "caution": "Relationship meaning must be confirmed from source or family behavior.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "Parent()",
+      "category": "Atropa Relationship",
+      "access": "Anyone (read-only)",
+      "effect": "Returns a parent or related contract address using capitalized naming.",
+      "caution": "Relationship meaning must be confirmed from source or family behavior.",
+      "explanationConfidence": "curated glossary"
+    },
+    {
+      "signature": "multiplier()",
+      "category": "Atropa Economics",
+      "access": "Anyone (read-only)",
+      "effect": "Returns a multiplier used by the contract's economic or minting logic.",
+      "caution": "The scale and application of the returned value depend on contract code.",
+      "explanationConfidence": "curated glossary"
+    }
+  ]
+}

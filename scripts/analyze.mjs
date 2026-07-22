@@ -5,6 +5,7 @@ import { KNOWN_SIGNATURES } from "./lib/abi.mjs";
 import { classifyContract, riskSignals } from "./lib/classify.mjs";
 import { analyzeUnicode } from "./lib/unicode.mjs";
 import { abiSignatureSet, resolveUnknownSelectors, chooseSelectorSignature } from "./lib/selector-resolver.mjs";
+import { explainFunction } from "./lib/function-key.mjs";
 
 const SELECTOR_CACHE_FILE = process.env.SELECTOR_CACHE_FILE || "data/selector-cache.json";
 const raw = readJson(RAW_FILE);
@@ -20,10 +21,11 @@ const byFingerprint = new Map();
 for (const c of raw.contracts || []) {
   const abiSet = abiSignatureSet(c.explorer?.abi);
   const sourceFunctionSignatures = [...abiSet].sort();
-  const selectorDetails = (c.selectors || []).map(selector => ({
-    selector:`0x${selector}`,
-    ...chooseSelectorSignature(selector, KNOWN_SIGNATURES[selector] || null, abiSet, selectorCache[selector])
-  }));
+  const selectorDetails = (c.selectors || []).map(selector => {
+    const resolved = chooseSelectorSignature(selector, KNOWN_SIGNATURES[selector] || null, abiSet, selectorCache[selector]);
+    return { selector:`0x${selector}`, ...resolved, functionInfo:explainFunction(resolved.signature, resolved.confidence) };
+  });
+  const sourceFunctionDetails = sourceFunctionSignatures.map(signature=>({signature,functionInfo:explainFunction(signature,"verified_abi")}));
   const classification = classifyContract(c.selectors || [], c.probes || {});
   const risks = riskSignals(c.selectors || [], c.probes || {});
   const displayName = c.metadata?.name || c.name || null;
@@ -34,7 +36,7 @@ for (const c of raw.contracts || []) {
   const analysis = {
     address:c.address, seed:{ name:c.name || null, symbol:c.symbol || null, initialSupplySnapshot:c.initialSupplySnapshot ?? null },
     metadata:{ ...c.metadata, nameAnalysis, symbolAnalysis },
-    classification, selectorDetails, sourceFunctionSignatures, probes:c.probes || {}, risks,
+    classification, selectorDetails, sourceFunctionSignatures, sourceFunctionDetails, probes:c.probes || {}, risks,
     bytecode:{ size:c.codeSize || 0, fingerprint:c.fingerprint || null, embeddedAddresses:c.embeddedAddresses || [] },
     source:{ verified:Boolean(c.explorer?.verified), contractName:c.explorer?.contractName || null, compilerVersion:c.explorer?.compilerVersion || null, proxy:Boolean(c.explorer?.proxy), abiFunctionCount:sourceFunctionSignatures.length },
     discovery:c.discovery || [], errors:c.error ? [c.error] : [],
@@ -58,7 +60,7 @@ writeJson(RELATIONSHIPS_FILE,{generatedAt:nowIso(),relationships});
 for (const c of contracts) {
   const name=c.metadata.name||c.seed.name||"Unknown";
   const na=c.metadata.nameAnalysis;
-  const md=`# ${name}\n\n- Address: \`${c.address}\`\n- Classification: **${c.classification.family}** (${c.classification.confidence})\n- Verified source: **${c.source.verified?"yes":"no"}**\n- Bytecode size: **${c.bytecode.size} bytes**\n\n## Metadata intelligence\n\n- Original name: ${c.metadata.name??"-"}\n- Normalized name: ${na.normalized||"-"}\n- Transliteration: ${na.transliteration||"-"}\n- Meaning hint: ${na.meaningHint||"-"}\n- Script(s): ${(na.scripts||[]).join(", ")||"-"}\n- Safe code-point fallback: ${na.safeFallback}\n- Symbol: ${c.metadata.symbol??"-"}\n- Decimals: ${c.metadata.decimals??"-"}\n- Total supply raw: ${c.metadata.totalSupply??"-"}\n\n## Evidence\n\n${c.classification.evidence.map(e=>`- ${e}`).join("\n")||"- No family-specific evidence."}\n\n## Runtime selectors\n\n${c.selectorDetails.map(s=>`- \`${s.selector}\` — ${s.signature||"unknown"} (${s.confidence}${s.source?`; ${s.source}`:""})${s.candidates?.length>1?` candidates: ${s.candidates.join(" | ")}`:""}`).join("\n")||"- None extracted."}\n\n## Verified ABI functions\n\n${c.sourceFunctionSignatures.map(s=>`- \`${s}\``).join("\n")||"- No verified ABI available."}\n\n## Relationships\n\n- Parent: ${c.probes.parent||"-"}\n- Implementation: ${c.probes.implementation||"-"}\n- Token0: ${c.probes.token0||"-"}\n- Token1: ${c.probes.token1||"-"}\n\n## Risk signals\n\n${c.risks.map(r=>`- **${r.level.toUpperCase()} ${r.code}:** ${r.detail}`).join("\n")||"- No dictionary-based risk signal detected. This is not a safety guarantee."}\n\n## Verification boundary\n\n${c.conclusions.verificationBoundary}\n`;
+  const md=`# ${name}\n\n- Address: \`${c.address}\`\n- Classification: **${c.classification.family}** (${c.classification.confidence})\n- Verified source: **${c.source.verified?"yes":"no"}**\n- Bytecode size: **${c.bytecode.size} bytes**\n\n## Metadata intelligence\n\n- Original name: ${c.metadata.name??"-"}\n- Normalized name: ${na.normalized||"-"}\n- Transliteration: ${na.transliteration||"-"}\n- Meaning hint: ${na.meaningHint||"-"}\n- Script(s): ${(na.scripts||[]).join(", ")||"-"}\n- Safe code-point fallback: ${na.safeFallback}\n- Symbol: ${c.metadata.symbol??"-"}\n- Decimals: ${c.metadata.decimals??"-"}\n- Total supply raw: ${c.metadata.totalSupply??"-"}\n\n## Evidence\n\n${c.classification.evidence.map(e=>`- ${e}`).join("\n")||"- No family-specific evidence."}\n\n## Runtime selectors\n\n${c.selectorDetails.map(s=>`- \`${s.selector}\` — ${s.signature||"unknown"} (${s.confidence}${s.source?`; ${s.source}`:""})${s.candidates?.length>1?` candidates: ${s.candidates.join(" | ")}`:""}\n  - Meaning: ${s.functionInfo?.effect||"Unknown"}\n  - Access: ${s.functionInfo?.access||"Unknown"}\n  - Caution: ${s.functionInfo?.caution||"-"}`).join("\n")||"- None extracted."}\n\n## Verified ABI functions\n\n${c.sourceFunctionDetails.map(s=>`- \`${s.signature}\` — ${s.functionInfo.effect} (${s.functionInfo.category})`).join("\n")||"- No verified ABI available."}\n\n## Relationships\n\n- Parent: ${c.probes.parent||"-"}\n- Implementation: ${c.probes.implementation||"-"}\n- Token0: ${c.probes.token0||"-"}\n- Token1: ${c.probes.token1||"-"}\n\n## Risk signals\n\n${c.risks.map(r=>`- **${r.level.toUpperCase()} ${r.code}:** ${r.detail}`).join("\n")||"- No dictionary-based risk signal detected. This is not a safety guarantee."}\n\n## Verification boundary\n\n${c.conclusions.verificationBoundary}\n`;
   writeText(`reports/${c.address}.md`,md);
 }
 console.error(`[analyze] wrote ${contracts.length} analyses and ${relationships.length} relationships`);

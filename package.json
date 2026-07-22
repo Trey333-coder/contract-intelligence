@@ -1,9 +1,9 @@
 {
   "name": "atropa-contract-intelligence-bot",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "Read-only Atropa contract intelligence, compact UI, Unicode/ABI analysis, and live workbook data.",
+  "description": "Read-only Atropa contract intelligence, function explanations, compact UI, Unicode/ABI analysis, and live workbook data.",
   "scripts": {
     "scan": "node scripts/scan.mjs",
     "analyze": "node scripts/analyze.mjs",

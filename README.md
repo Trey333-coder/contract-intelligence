@@ -1,4 +1,4 @@
-# Atropa Contract Intelligence Bot
+# Atropa Contract Intelligence Bot — Piece 4
 
 A **read-only** PulseChain discovery and contract-analysis project for the Atropa ecosystem.
 
@@ -114,3 +114,17 @@ Run:
 4. The website then shows the live-pull timestamp, contracts alive, and armed LP-registry count.
 
 The downloadable `.xlsx` remains the preserved snapshot/live-pull-ready workbook. The JSON is the current machine-readable live layer.
+
+
+## Piece 4 — Function Key
+
+The website now includes a visible **Search** button, **Clear** button, and a global **Function key**. Each resolved selector and verified ABI function displays:
+
+- plain-English meaning
+- category
+- likely caller/access pattern
+- whether it reads or changes state
+- caution/verification boundary
+- explanation confidence
+
+The function name and inputs may be verified by ABI while internal conditions still require source-code or behavioral review. Direct on-chain return values remain authoritative unless specific contradictory evidence is present.
