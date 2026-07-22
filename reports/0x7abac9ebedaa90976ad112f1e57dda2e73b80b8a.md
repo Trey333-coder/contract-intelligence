@@ -2,7 +2,7 @@
 
 - Address: `0x7abac9ebedaa90976ad112f1e57dda2e73b80b8a`
 - Classification: **unknown_contract** (low)
-- Verified source: **yes**
+- Verified source: **no**
 - Bytecode size: **3767 bytes**
 
 ## Metadata intelligence
@@ -24,14 +24,14 @@
 ## Runtime selectors
 
 - `0x03afad01` — unknown (unknown; 4byte.directory)
-- `0x06fdde03` — name() (verified_abi; verified explorer ABI)
+- `0x06fdde03` — name() (verified_dictionary; local signature dictionary)
 - `0x0be6bab5` — unknown (unknown; 4byte.directory)
 - `0x14bef829` — unknown (unknown; 4byte.directory)
-- `0x18160ddd` — totalSupply() (verified_abi; verified explorer ABI)
+- `0x18160ddd` — totalSupply() (verified_dictionary; local signature dictionary)
 - `0x192193b9` — unknown (unknown; 4byte.directory)
 - `0x2b83b1fc` — unknown (unknown; 4byte.directory)
 - `0x2c8eb5af` — unknown (unknown; 4byte.directory)
-- `0x313ce567` — decimals() (verified_abi; verified explorer ABI)
+- `0x313ce567` — decimals() (verified_dictionary; local signature dictionary)
 - `0x36030219` — unknown (unknown; 4byte.directory)
 - `0x38bf3cfa` — unknown (unknown; 4byte.directory)
 - `0x41a3942e` — unknown (unknown; 4byte.directory)
@@ -40,12 +40,12 @@
 - `0x604a6fa9` — unknown (unknown; 4byte.directory)
 - `0x666e1b39` — unknown (unknown; 4byte.directory)
 - `0x6fb7329c` — unknown (unknown; 4byte.directory)
-- `0x7065cb48` — addOwner(address) (verified_abi; verified explorer ABI)
-- `0x70a08231` — balanceOf(address) (verified_abi; verified explorer ABI)
+- `0x7065cb48` — addOwner(address) (public_database; 4byte.directory)
+- `0x70a08231` — balanceOf(address) (verified_dictionary; local signature dictionary)
 - `0x72bd72b8` — unknown (unknown; 4byte.directory)
-- `0x8da5cb5b` — owner() (verified_abi; verified explorer ABI)
+- `0x8da5cb5b` — owner() (verified_dictionary; local signature dictionary)
 - `0x90b23441` — unknown (unknown; 4byte.directory)
-- `0x95d89b41` — symbol() (verified_abi; verified explorer ABI)
+- `0x95d89b41` — symbol() (verified_dictionary; local signature dictionary)
 - `0xa5f7c148` — unknown (unknown; 4byte.directory)
 - `0xd3dc2a0f` — unknown (unknown; 4byte.directory)
 - `0xd5abeb01` — unknown (unknown; 4byte.directory)
@@ -54,24 +54,7 @@
 
 ## Verified ABI functions
 
-- `GetMarketRate(address)`
-- `MotzkinPrime()`
-- `Purchase(address,int256)`
-- `Redeem(address,int256)`
-- `Xiao()`
-- `addOwner(address)`
-- `balanceOf(address)`
-- `decimals()`
-- `maxSupply()`
-- `mintToCap()`
-- `name()`
-- `owner()`
-- `owner(address)`
-- `renounceOwnership(address)`
-- `symbol()`
-- `totalSupply()`
-- `transfer(address,int256)`
-- `transferFrom(address,address,int256)`
+- No verified ABI available.
 
 ## Relationships
 
