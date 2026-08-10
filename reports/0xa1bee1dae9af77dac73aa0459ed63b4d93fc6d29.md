@@ -15,7 +15,7 @@
 - Safe code-point fallback: U+1A13 U+1A06
 - Symbol: ᨓᨆ
 - Decimals: 18
-- Total supply raw: 2012428026689185474542031646
+- Total supply raw: 2012909568321096713163381356
 
 ## Evidence
 
