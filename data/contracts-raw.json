@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T08:12:26.842Z",
+  "generatedAt": "2026-08-31T15:14:09.057Z",
   "safety": "READ_ONLY",
   "seedCount": 292,
   "discoveredCount": 684,
@@ -69,7 +69,7 @@
         "name": "Atropa",
         "symbol": "ATROPA",
         "decimals": 18,
-        "totalSupply": "534936023552522502648299672"
+        "totalSupply": "534936018983695635540995656"
       },
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
@@ -8350,7 +8350,7 @@
         "name": "ᨓᨆ",
         "symbol": "ᨓᨆ",
         "decimals": 18,
-        "totalSupply": "2012909568321096713163381356"
+        "totalSupply": "2012909580360389966772697472"
       },
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
@@ -33225,7 +33225,7 @@
         "name": "𑀭𑀭𑀭𑀭𑀭",
         "symbol": "BFF",
         "decimals": 18,
-        "totalSupply": "580200186800474915407"
+        "totalSupply": "580199974254520793821"
       },
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
@@ -39737,7 +39737,7 @@
         "name": "HEXiKo_O",
         "symbol": "ROYALTY™",
         "decimals": 18,
-        "totalSupply": "3000011926440168663"
+        "totalSupply": "3000011932517803615"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -39832,7 +39832,7 @@
         "name": "Ryerson Department Of Mines",
         "symbol": "NIGGER™",
         "decimals": 18,
-        "totalSupply": "3786040577461610077"
+        "totalSupply": "3786502185322643249"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -39933,7 +39933,7 @@
         "name": "Ditto",
         "symbol": "DIBS™",
         "decimals": 18,
-        "totalSupply": "3000348129274036744"
+        "totalSupply": "3000348337072629376"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -40135,7 +40135,7 @@
         "name": "Warning",
         "symbol": "MUNITION™",
         "decimals": 18,
-        "totalSupply": "3030675577653527871"
+        "totalSupply": "3030694422622184686"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -42872,7 +42872,7 @@
         "name": "GIMME FIVE",
         "symbol": "⑤",
         "decimals": 18,
-        "totalSupply": "1200031000000000000000000"
+        "totalSupply": "1200034000000000000000000"
       },
       "probes": {
         "owner": "0x8b090509eae0feb4a0b934de1b4345161fa9a62d",
@@ -43329,7 +43329,7 @@
         "name": "Random Number Generator",
         "symbol": "RNG",
         "decimals": 18,
-        "totalSupply": "343558815000000000000000000"
+        "totalSupply": "353033571000000000000000000"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -44347,7 +44347,7 @@
         "name": "libAtropaMath v1.0",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "14112000000000000000000"
+        "totalSupply": "15912000000000000000000"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -45224,7 +45224,7 @@
         "name": "libAtropaMath v1.1",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "343538838999999999999999999"
+        "totalSupply": "353011294999999999999999999"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -69596,7 +69596,7 @@
         "name": "AFFECTION™",
         "symbol": "Ⓐ",
         "decimals": 18,
-        "totalSupply": "369578021400000000001572863"
+        "totalSupply": "379590873400000000001572863"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -73614,7 +73614,7 @@
         "name": "Tetratricopeptides",
         "symbol": "正",
         "decimals": 18,
-        "totalSupply": "32202706960427850418602116"
+        "totalSupply": "37152105961013405929818299"
       },
       "probes": {
         "owner": null,
@@ -75669,7 +75669,7 @@
         "name": "Order of the Temple of the East",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "1745183973624258805797522792"
+        "totalSupply": "1745826923624258805797522792"
       },
       "probes": {
         "owner": null,
@@ -75737,7 +75737,7 @@
         "name": "Kate Blockbuster Middleton",
         "symbol": "MISUNDERSTAND®",
         "decimals": 18,
-        "totalSupply": "17862728767606962952562093"
+        "totalSupply": "17862728769193408979447451"
       },
       "probes": {
         "owner": null,
@@ -75940,7 +75940,7 @@
         "name": "サイドティック",
         "symbol": "クッィテドイサ",
         "decimals": 18,
-        "totalSupply": "3541966877627651429748"
+        "totalSupply": "3541968556012511792547"
       },
       "probes": {
         "owner": null,
@@ -76299,7 +76299,7 @@
         "name": "Keys Of Ong",
         "symbol": "ARCADIA",
         "decimals": 18,
-        "totalSupply": "7727999999999999999969"
+        "totalSupply": "7729999999999999999969"
       },
       "probes": {
         "owner": null,
@@ -77566,7 +77566,7 @@
         "name": "ՁՅՈ ՒՆՓ ՈԹՈՐԿ ԻՏ ԱՂԱՆ ԴՆԵՐԻՇ ՈՈՒ",
         "symbol": "MINISTRY",
         "decimals": 18,
-        "totalSupply": "4892042113114530839520895"
+        "totalSupply": "4945979140035875307532331"
       },
       "probes": {
         "owner": null,
@@ -77714,7 +77714,7 @@
         "name": "㉾ իգէ և սնով ㉾",
         "symbol": "ICE",
         "decimals": 18,
-        "totalSupply": "275213528316749714318761411"
+        "totalSupply": "276027288801393564382549537"
       },
       "probes": {
         "owner": null,
@@ -97781,7 +97781,7 @@
         "name": "vePickle",
         "symbol": "DILL",
         "decimals": 18,
-        "totalSupply": "157434460455346299894345"
+        "totalSupply": "151091985520880572188045"
       },
       "probes": {
         "owner": null,
@@ -116422,7 +116422,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 18,
-        "totalSupply": "44362080473915666603664021751"
+        "totalSupply": "44362109830988755025176524230"
       },
       "probes": {
         "owner": null,
