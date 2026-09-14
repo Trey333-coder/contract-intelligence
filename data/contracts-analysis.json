@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T13:39:30.235Z",
+  "generatedAt": "2026-09-14T14:11:51.845Z",
   "safety": "READ_ONLY",
   "summary": {
     "contracts": 976,
@@ -25,7 +25,7 @@
         "name": "Atropa",
         "symbol": "ATROPA",
         "decimals": 18,
-        "totalSupply": "534936009704656552449501529",
+        "totalSupply": "534936007691546912397575332",
         "nameAnalysis": {
           "original": "Atropa",
           "normalized": "Atropa",
@@ -101083,7 +101083,7 @@
         "name": "𑀭𑀭𑀭𑀭𑀭",
         "symbol": "BFF",
         "decimals": 18,
-        "totalSupply": "580199666029701565708",
+        "totalSupply": "580198634695964834054",
         "nameAnalysis": {
           "original": "𑀭𑀭𑀭𑀭𑀭",
           "normalized": "𑀭𑀭𑀭𑀭𑀭",
@@ -132013,7 +132013,7 @@
         "name": "HEXiKo_O",
         "symbol": "ROYALTY™",
         "decimals": 18,
-        "totalSupply": "3000011937956632719",
+        "totalSupply": "3000011942184608410",
         "nameAnalysis": {
           "original": "HEXiKo_O",
           "normalized": "HEXiKo_O",
@@ -132766,7 +132766,7 @@
         "name": "Ryerson Department Of Mines",
         "symbol": "NIGGER™",
         "decimals": 18,
-        "totalSupply": "3786809825097697785",
+        "totalSupply": "3787733635460371423",
         "nameAnalysis": {
           "original": "Ryerson Department Of Mines",
           "normalized": "Ryerson Department Of Mines",
@@ -133583,7 +133583,7 @@
         "name": "Ditto",
         "symbol": "DIBS™",
         "decimals": 18,
-        "totalSupply": "3000348442201437235",
+        "totalSupply": "3000348496285756206",
         "nameAnalysis": {
           "original": "Ditto",
           "normalized": "Ditto",
@@ -135190,7 +135190,7 @@
         "name": "Warning",
         "symbol": "MUNITION™",
         "decimals": 18,
-        "totalSupply": "3030702496115333847",
+        "totalSupply": "3030718617396246118",
         "nameAnalysis": {
           "original": "Warning",
           "normalized": "Warning",
@@ -137797,7 +137797,7 @@
         "name": "Derivative Subsidy",
         "symbol": "SUBSIDY™",
         "decimals": 18,
-        "totalSupply": "1000000046324390952",
+        "totalSupply": "1000000046364342067",
         "nameAnalysis": {
           "original": "Derivative Subsidy",
           "normalized": "Derivative Subsidy",
@@ -140537,7 +140537,7 @@
         "name": "Integrative Hedge",
         "symbol": "HEDGE™",
         "decimals": 18,
-        "totalSupply": "1000000870435766361",
+        "totalSupply": "1000000870808938154",
         "nameAnalysis": {
           "original": "Integrative Hedge",
           "normalized": "Integrative Hedge",
@@ -146750,7 +146750,7 @@
         "name": "pINDEPENDENCE",
         "symbol": "ⓟ",
         "decimals": 18,
-        "totalSupply": "95927999999999999999000",
+        "totalSupply": "95989999999999999999000",
         "nameAnalysis": {
           "original": "pINDEPENDENCE",
           "normalized": "pINDEPENDENCE",
@@ -148442,7 +148442,7 @@
         "name": "Random Number Generator",
         "symbol": "RNG",
         "decimals": 18,
-        "totalSupply": "362684670000000000000000000",
+        "totalSupply": "373615908000000000000000000",
         "nameAnalysis": {
           "original": "Random Number Generator",
           "normalized": "Random Number Generator",
@@ -151657,7 +151657,7 @@
         "name": "libAtropaMath v1.1",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "362661793999999999999999999",
+        "totalSupply": "373593131999999999999999999",
         "nameAnalysis": {
           "original": "libAtropaMath v1.1",
           "normalized": "libAtropaMath v1.1",
@@ -163069,7 +163069,7 @@
         "name": "AFFECTION™",
         "symbol": "Ⓐ",
         "decimals": 18,
-        "totalSupply": "389053604400000000001572863",
+        "totalSupply": "400030037400000000001572863",
         "nameAnalysis": {
           "original": "AFFECTION™",
           "normalized": "AFFECTIONTM",
@@ -170766,7 +170766,7 @@
         "name": "Tetratricopeptides",
         "symbol": "正",
         "decimals": 18,
-        "totalSupply": "42556977888013405929818299",
+        "totalSupply": "47357069760869238283256150",
         "nameAnalysis": {
           "original": "Tetratricopeptides",
           "normalized": "Tetratricopeptides",
@@ -178843,7 +178843,7 @@
         "name": "Order of the Temple of the East",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "1746705323624258805797522792",
+        "totalSupply": "1747695032624258805797522792",
         "nameAnalysis": {
           "original": "Order of the Temple of the East",
           "normalized": "Order of the Temple of the East",
@@ -179392,7 +179392,7 @@
         "name": "Kate Blockbuster Middleton",
         "symbol": "MISUNDERSTAND®",
         "decimals": 18,
-        "totalSupply": "17862728769576787282139123",
+        "totalSupply": "17862728770352527702962884",
         "nameAnalysis": {
           "original": "Kate Blockbuster Middleton",
           "normalized": "Kate Blockbuster Middleton",
@@ -180905,7 +180905,7 @@
         "name": "サイドティック",
         "symbol": "クッィテドイサ",
         "decimals": 18,
-        "totalSupply": "3541969987696845568209",
+        "totalSupply": "3542310579112674400372",
         "nameAnalysis": {
           "original": "サイドティック",
           "normalized": "サイドティック",
@@ -188709,7 +188709,7 @@
         "name": "村山 富市",
         "symbol": "GOSHEN",
         "decimals": 18,
-        "totalSupply": "4078905587687646646788042",
+        "totalSupply": "4135382587869099226689026",
         "nameAnalysis": {
           "original": "村山 富市",
           "normalized": "村山 富市",
@@ -220639,7 +220639,7 @@
         "name": "vePickle",
         "symbol": "DILL",
         "decimals": 18,
-        "totalSupply": "145063281781561351582080",
+        "totalSupply": "138975137293340360382225",
         "nameAnalysis": {
           "original": "vePickle",
           "normalized": "vePickle",
@@ -262289,7 +262289,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 18,
-        "totalSupply": "44362170202974508493397841762",
+        "totalSupply": "44362144739675588606843440056",
         "nameAnalysis": {
           "original": "Dai Stablecoin",
           "normalized": "Dai Stablecoin",
