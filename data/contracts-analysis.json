@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-12T16:53:23.495Z",
+  "generatedAt": "2026-10-19T14:51:00.748Z",
   "safety": "READ_ONLY",
   "summary": {
     "contracts": 976,
-    "verifiedSource": 91,
+    "verifiedSource": 83,
     "resolvedSelectors": 4555,
     "unresolvedSelectors": 3546,
     "familyCounts": {
@@ -25,7 +25,7 @@
         "name": "Atropa",
         "symbol": "ATROPA",
         "decimals": 18,
-        "totalSupply": "534936001205883715076010380",
+        "totalSupply": "534936000126732862904797285",
         "nameAnalysis": {
           "original": "Atropa",
           "normalized": "Atropa",
@@ -881,8 +881,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -891,14 +891,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -907,14 +907,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -923,14 +923,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -939,14 +939,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -955,14 +955,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x39509351",
           "signature": "increaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "increaseAllowance(address,uint256)"
           ],
@@ -971,14 +971,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named increaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0x40c10f19",
           "signature": "mint(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "mint(address,uint256)"
           ],
@@ -987,14 +987,14 @@
             "access": "Contract-defined authority (state-changing)",
             "effect": "Creates tokens and credits them to an address.",
             "caution": "Authority, caps, cost, and conditions must be read from verified code or behavior.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -1003,7 +1003,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -1107,8 +1107,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -1117,14 +1117,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -1133,7 +1133,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -1153,8 +1153,8 @@
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -1163,14 +1163,14 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -1179,14 +1179,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -1195,14 +1195,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa457c2d7",
           "signature": "decreaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "decreaseAllowance(address,uint256)"
           ],
@@ -1211,14 +1211,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named decreaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -1227,7 +1227,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -1247,8 +1247,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -1257,14 +1257,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -1273,201 +1273,12 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "decreaseAllowance(address,uint256)",
-        "increaseAllowance(address,uint256)",
-        "mint(address,uint256)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decreaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named decreaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "increaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named increaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "mint(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Contract-defined authority (state-changing)",
-            "effect": "Creates tokens and credits them to an address.",
-            "caution": "Authority, caps, cost, and conditions must be read from verified code or behavior.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
         "implementation": null,
@@ -1508,11 +1319,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "dOWN",
-        "compilerVersion": "v0.8.18+commit.87f61d96",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 17
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -6660,8 +6471,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -6670,14 +6481,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -6686,14 +6497,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -6702,14 +6513,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -6718,14 +6529,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -6734,14 +6545,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x39509351",
           "signature": "increaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "increaseAllowance(address,uint256)"
           ],
@@ -6750,14 +6561,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named increaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -6766,7 +6577,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -6856,8 +6667,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -6866,14 +6677,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -6882,7 +6693,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -6902,8 +6713,8 @@
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -6912,14 +6723,14 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -6928,14 +6739,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -6944,14 +6755,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa457c2d7",
           "signature": "decreaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "decreaseAllowance(address,uint256)"
           ],
@@ -6960,14 +6771,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named decreaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -6976,7 +6787,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -6996,8 +6807,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -7006,14 +6817,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -7022,190 +6833,12 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "decreaseAllowance(address,uint256)",
-        "increaseAllowance(address,uint256)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decreaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named decreaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "increaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named increaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
         "implementation": null,
@@ -7242,11 +6875,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "Poppy",
-        "compilerVersion": "v0.8.18+commit.87f61d96",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 16
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -12650,8 +12283,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -12660,14 +12293,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -12676,14 +12309,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -12692,14 +12325,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -12708,14 +12341,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -12724,14 +12357,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x39509351",
           "signature": "increaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "increaseAllowance(address,uint256)"
           ],
@@ -12740,14 +12373,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named increaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -12756,7 +12389,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -12846,8 +12479,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -12856,14 +12489,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -12872,7 +12505,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -12892,8 +12525,8 @@
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -12902,14 +12535,14 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -12918,14 +12551,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -12934,14 +12567,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa457c2d7",
           "signature": "decreaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "decreaseAllowance(address,uint256)"
           ],
@@ -12950,14 +12583,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named decreaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -12966,7 +12599,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -12986,8 +12619,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -12996,14 +12629,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -13012,190 +12645,12 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "decreaseAllowance(address,uint256)",
-        "increaseAllowance(address,uint256)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decreaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named decreaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "increaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named increaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
         "implementation": null,
@@ -13227,11 +12682,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "Bullion5",
-        "compilerVersion": "v0.8.18+commit.87f61d96",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 16
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -19381,8 +18836,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -19391,14 +18846,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -19407,14 +18862,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -19423,14 +18878,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -19439,14 +18894,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -19455,14 +18910,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x39509351",
           "signature": "increaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "increaseAllowance(address,uint256)"
           ],
@@ -19471,14 +18926,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named increaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -19487,7 +18942,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -19577,8 +19032,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -19587,14 +19042,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -19603,7 +19058,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -19623,8 +19078,8 @@
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -19633,7 +19088,7 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -19653,8 +19108,8 @@
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -19663,14 +19118,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -19679,14 +19134,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa457c2d7",
           "signature": "decreaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "decreaseAllowance(address,uint256)"
           ],
@@ -19695,14 +19150,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named decreaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -19711,7 +19166,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -19731,8 +19186,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -19741,14 +19196,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -19757,190 +19212,12 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "decreaseAllowance(address,uint256)",
-        "increaseAllowance(address,uint256)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decreaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named decreaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "increaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named increaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
         "implementation": null,
@@ -19979,11 +19256,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "No",
-        "compilerVersion": "v0.8.21+commit.d9974bed",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 16
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -20010,7 +19287,7 @@
         "name": "ࠐࠀ",
         "symbol": "࠘ࠓࠩࠐࠬࠀࠫࠋࠠ",
         "decimals": 18,
-        "totalSupply": "65370553000000000000000000",
+        "totalSupply": "65557553000000000000000000",
         "nameAnalysis": {
           "original": "ࠐࠀ",
           "normalized": "ࠐࠀ",
@@ -59338,8 +58615,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -59348,14 +58625,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -59364,14 +58641,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -59380,14 +58657,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -59396,14 +58673,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -59412,14 +58689,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x39509351",
           "signature": "increaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "increaseAllowance(address,uint256)"
           ],
@@ -59428,14 +58705,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named increaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -59444,7 +58721,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -59534,8 +58811,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -59544,14 +58821,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -59560,7 +58837,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -59580,8 +58857,8 @@
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -59590,7 +58867,7 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -59610,8 +58887,8 @@
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -59620,14 +58897,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -59636,14 +58913,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa457c2d7",
           "signature": "decreaseAllowance(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "public_database",
+          "source": "4byte.directory",
           "candidates": [
             "decreaseAllowance(address,uint256)"
           ],
@@ -59652,14 +58929,14 @@
             "access": "Unknown until ABI mutability/source is inspected",
             "effect": "Custom contract function named decreaseAllowance.",
             "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
+            "explanationConfidence": "inferred from resolved signature"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -59668,7 +58945,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -59688,8 +58965,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -59698,14 +58975,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -59714,190 +58991,12 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "decreaseAllowance(address,uint256)",
-        "increaseAllowance(address,uint256)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decreaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named decreaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "increaseAllowance(address,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named increaseAllowance.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
         "implementation": null,
@@ -59935,11 +59034,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "Frock",
-        "compilerVersion": "v0.8.21+commit.d9974bed",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 16
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -83772,7 +82871,7 @@
         "name": "One Time Pass Fake",
         "symbol": "OTPF",
         "decimals": 18,
-        "totalSupply": "72726500000000000000000",
+        "totalSupply": "74550500000000000000000",
         "nameAnalysis": {
           "original": "One Time Pass Fake",
           "normalized": "One Time Pass Fake",
@@ -101083,7 +100182,7 @@
         "name": "𑀭𑀭𑀭𑀭𑀭",
         "symbol": "BFF",
         "decimals": 18,
-        "totalSupply": "580195374171117325454",
+        "totalSupply": "580193135756090838403",
         "nameAnalysis": {
           "original": "𑀭𑀭𑀭𑀭𑀭",
           "normalized": "𑀭𑀭𑀭𑀭𑀭",
@@ -132013,7 +131112,7 @@
         "name": "HEXiKo_O",
         "symbol": "ROYALTY™",
         "decimals": 18,
-        "totalSupply": "3000012058578889227",
+        "totalSupply": "3000012073871962735",
         "nameAnalysis": {
           "original": "HEXiKo_O",
           "normalized": "HEXiKo_O",
@@ -132766,7 +131865,7 @@
         "name": "Ryerson Department Of Mines",
         "symbol": "NIGGER™",
         "decimals": 18,
-        "totalSupply": "12678206346852063947",
+        "totalSupply": "12682512011594279081",
         "nameAnalysis": {
           "original": "Ryerson Department Of Mines",
           "normalized": "Ryerson Department Of Mines",
@@ -133583,7 +132682,7 @@
         "name": "Ditto",
         "symbol": "DIBS™",
         "decimals": 18,
-        "totalSupply": "3000348971838142195",
+        "totalSupply": "3000349150298208799",
         "nameAnalysis": {
           "original": "Ditto",
           "normalized": "Ditto",
@@ -135190,7 +134289,7 @@
         "name": "Warning",
         "symbol": "MUNITION™",
         "decimals": 18,
-        "totalSupply": "3030822542074028331",
+        "totalSupply": "3030881093483668166",
         "nameAnalysis": {
           "original": "Warning",
           "normalized": "Warning",
@@ -137797,7 +136896,7 @@
         "name": "Derivative Subsidy",
         "symbol": "SUBSIDY™",
         "decimals": 18,
-        "totalSupply": "1000000046509661697",
+        "totalSupply": "1000000046539251256",
         "nameAnalysis": {
           "original": "Derivative Subsidy",
           "normalized": "Derivative Subsidy",
@@ -140537,7 +139636,7 @@
         "name": "Integrative Hedge",
         "symbol": "HEDGE™",
         "decimals": 18,
-        "totalSupply": "1000000872379498615",
+        "totalSupply": "1000000874041936243",
         "nameAnalysis": {
           "original": "Integrative Hedge",
           "normalized": "Integrative Hedge",
@@ -148442,7 +147541,7 @@
         "name": "Random Number Generator",
         "symbol": "RNG",
         "decimals": 18,
-        "totalSupply": "417290389000000000000000000",
+        "totalSupply": "423768037000000000000000000",
         "nameAnalysis": {
           "original": "Random Number Generator",
           "normalized": "Random Number Generator",
@@ -151657,7 +150756,7 @@
         "name": "libAtropaMath v1.1",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "417263871999999999999999999",
+        "totalSupply": "423741518999999999999999999",
         "nameAnalysis": {
           "original": "libAtropaMath v1.1",
           "normalized": "libAtropaMath v1.1",
@@ -151816,8 +150915,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -151826,14 +150925,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -151842,14 +150941,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -151858,14 +150957,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -151874,7 +150973,7 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -151894,8 +150993,8 @@
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -151904,7 +151003,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -151952,8 +151051,8 @@
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -151962,7 +151061,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -152024,8 +151123,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -152034,14 +151133,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x715018a6",
           "signature": "renounceOwnership()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "renounceOwnership()"
           ],
@@ -152050,14 +151149,14 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Sets ownership to no owner, commonly the zero address.",
             "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -152066,14 +151165,14 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x8da5cb5b",
           "signature": "owner()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "owner()"
           ],
@@ -152082,7 +151181,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the address recognized as the owner or administrator.",
             "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -152102,8 +151201,8 @@
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -152112,14 +151211,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -152128,7 +151227,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -152218,8 +151317,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -152228,14 +151327,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xf2fde38b",
           "signature": "transferOwnership(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferOwnership(address)"
           ],
@@ -152244,7 +151343,7 @@
             "access": "Usually current owner (state-changing)",
             "effect": "Transfers administrative ownership to another address.",
             "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -152280,285 +151379,8 @@
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "BuyWithDAI(uint256)",
-        "BuyWithG5(uint256)",
-        "BuyWithMATH(uint256)",
-        "BuyWithPI(uint256)",
-        "BuyWithUSDC(uint256)",
-        "BuyWithUSDT(uint256)",
-        "MotzkinPrime()",
-        "Random()",
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "hashWith(address,address)",
-        "modExp(uint256,uint256,uint256)",
-        "modExp64(uint64,uint64,uint64)",
-        "name()",
-        "owner()",
-        "renounceOwnership()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)",
-        "transferOwnership(address)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "BuyWithDAI(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithDAI.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "BuyWithG5(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithG5.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "BuyWithMATH(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithMATH.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "BuyWithPI(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithPI.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "BuyWithUSDC(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithUSDC.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "BuyWithUSDT(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithUSDT.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "MotzkinPrime()",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named MotzkinPrime.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "Random()",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named Random.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "hashWith(address,address)",
-          "functionInfo": {
-            "category": "Read / Calculation",
-            "access": "Likely read-only; verify ABI mutability",
-            "effect": "Reads or calculates data through hashWith.",
-            "caution": "The exact return values and conditions require the ABI or source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "modExp(uint256,uint256,uint256)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named modExp.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "modExp64(uint64,uint64,uint64)",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named modExp64.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "owner()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the address recognized as the owner or administrator.",
-            "caution": "Owner powers must be determined from the actual callable functions and source.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "renounceOwnership()",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Sets ownership to no owner, commonly the zero address.",
-            "caution": "Often irreversible; verify implementation and pending-owner patterns.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferOwnership(address)",
-          "functionInfo": {
-            "category": "Administration",
-            "access": "Usually current owner (state-changing)",
-            "effect": "Transfers administrative ownership to another address.",
-            "caution": "Changes who may control owner-restricted functions.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
         "implementation": null,
@@ -152588,11 +151410,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "atropaMath",
-        "compilerVersion": "v0.8.21+commit.d9974bed",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 25
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -159395,7 +158217,7 @@
         "name": "libConjecture v1.0",
         "symbol": "Fa",
         "decimals": 18,
-        "totalSupply": "2917000000000000000000",
+        "totalSupply": "2924000000000000000000",
         "nameAnalysis": {
           "original": "libConjecture v1.0",
           "normalized": "libConjecture v1.0",
@@ -161756,7 +160578,7 @@
         "name": "libDynamic v1.0",
         "symbol": "Faung",
         "decimals": 18,
-        "totalSupply": "38000000000000000000",
+        "totalSupply": "40000000000000000000",
         "nameAnalysis": {
           "original": "libDynamic v1.0",
           "normalized": "libDynamic v1.0",
@@ -163069,7 +161891,7 @@
         "name": "AFFECTION™",
         "symbol": "Ⓐ",
         "decimals": 18,
-        "totalSupply": "443375101400000000001572863",
+        "totalSupply": "449944995400000000001572863",
         "nameAnalysis": {
           "original": "AFFECTION™",
           "normalized": "AFFECTIONTM",
@@ -170174,8 +168996,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -170184,14 +169006,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -170200,14 +169022,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -170216,14 +169038,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -170232,14 +169054,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -170248,7 +169070,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -170282,8 +169104,8 @@
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -170292,7 +169114,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -170384,8 +169206,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -170394,14 +169216,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -170410,7 +169232,7 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -170458,8 +169280,8 @@
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -170468,14 +169290,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -170484,7 +169306,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -170504,8 +169326,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -170514,7 +169336,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -170564,153 +169386,8 @@
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "BuyWithAffection(uint256)",
-        "Mint()",
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "name()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "BuyWithAffection(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithAffection.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "Mint()",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named Mint.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": null,
         "implementation": null,
@@ -170735,11 +169412,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "ORDER",
-        "compilerVersion": "v0.8.21+commit.d9974bed",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 13
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -170766,7 +169443,7 @@
         "name": "Tetratricopeptides",
         "symbol": "正",
         "decimals": 18,
-        "totalSupply": "64683051010651721896279185",
+        "totalSupply": "67133167350805191234817453",
         "nameAnalysis": {
           "original": "Tetratricopeptides",
           "normalized": "Tetratricopeptides",
@@ -170910,8 +169587,8 @@
         {
           "selector": "0x06fdde03",
           "signature": "name()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "name()"
           ],
@@ -170920,14 +169597,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the contract or token name.",
             "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x095ea7b3",
           "signature": "approve(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "approve(address,uint256)"
           ],
@@ -170936,14 +169613,14 @@
             "access": "Token holder (state-changing)",
             "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
             "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x18160ddd",
           "signature": "totalSupply()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "totalSupply()"
           ],
@@ -170952,14 +169629,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the current total supply recorded by the contract.",
             "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x23b872dd",
           "signature": "transferFrom(address,address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transferFrom(address,address,uint256)"
           ],
@@ -170968,14 +169645,14 @@
             "access": "Approved spender (state-changing)",
             "effect": "Moves tokens from one address to another using an allowance or other authorization.",
             "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x313ce567",
           "signature": "decimals()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "decimals()"
           ],
@@ -170984,7 +169661,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how raw integer token units are displayed as decimal amounts.",
             "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -171018,8 +169695,8 @@
         {
           "selector": "0x42966c68",
           "signature": "burn(uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burn(uint256)"
           ],
@@ -171028,7 +169705,7 @@
             "access": "Token holder or authorized caller (state-changing)",
             "effect": "Destroys a specified amount of tokens under the contract's rules.",
             "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -171120,8 +169797,8 @@
         {
           "selector": "0x70a08231",
           "signature": "balanceOf(address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "balanceOf(address)"
           ],
@@ -171130,14 +169807,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the token balance recorded for an address.",
             "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0x79cc6790",
           "signature": "burnFrom(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "burnFrom(address,uint256)"
           ],
@@ -171146,7 +169823,7 @@
             "access": "Approved or privileged caller (state-changing)",
             "effect": "Destroys tokens held by another address using allowance or authority.",
             "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -171194,8 +169871,8 @@
         {
           "selector": "0x95d89b41",
           "signature": "symbol()",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "symbol()"
           ],
@@ -171204,14 +169881,14 @@
             "access": "Anyone (read-only)",
             "effect": "Returns the short token symbol.",
             "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
           "selector": "0xa9059cbb",
           "signature": "transfer(address,uint256)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "transfer(address,uint256)"
           ],
@@ -171220,7 +169897,7 @@
             "access": "Token holder (state-changing)",
             "effect": "Moves tokens from the caller to another address.",
             "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -171240,8 +169917,8 @@
         {
           "selector": "0xdd62ed3e",
           "signature": "allowance(address,address)",
-          "confidence": "verified_abi",
-          "source": "verified explorer ABI",
+          "confidence": "verified_dictionary",
+          "source": "local signature dictionary",
           "candidates": [
             "allowance(address,address)"
           ],
@@ -171250,7 +169927,7 @@
             "access": "Anyone (read-only)",
             "effect": "Returns how many tokens an owner has authorized a spender to use.",
             "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
+            "explanationConfidence": "known signature glossary"
           }
         },
         {
@@ -171300,153 +169977,8 @@
           }
         }
       ],
-      "sourceFunctionSignatures": [
-        "BuyWithAffection(uint256)",
-        "Mint()",
-        "allowance(address,address)",
-        "approve(address,uint256)",
-        "balanceOf(address)",
-        "burn(uint256)",
-        "burnFrom(address,uint256)",
-        "decimals()",
-        "name()",
-        "symbol()",
-        "totalSupply()",
-        "transfer(address,uint256)",
-        "transferFrom(address,address,uint256)"
-      ],
-      "sourceFunctionDetails": [
-        {
-          "signature": "BuyWithAffection(uint256)",
-          "functionInfo": {
-            "category": "Trading",
-            "access": "State-changing; market rules apply",
-            "effect": "Performs a trade-related action through BuyWithAffection.",
-            "caution": "Verify token direction, taxes, slippage, recipient, and liquidity source.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "Mint()",
-          "functionInfo": {
-            "category": "Custom Function",
-            "access": "Unknown until ABI mutability/source is inspected",
-            "effect": "Custom contract function named Mint.",
-            "caution": "Its name is a clue, not proof of internal behavior.",
-            "explanationConfidence": "verified name; meaning inferred"
-          }
-        },
-        {
-          "signature": "allowance(address,address)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how many tokens an owner has authorized a spender to use.",
-            "caution": "A large allowance permits the spender to transfer up to that amount, subject to contract rules.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "approve(address,uint256)",
-          "functionInfo": {
-            "category": "Approvals",
-            "access": "Token holder (state-changing)",
-            "effect": "Sets or replaces the amount a spender is allowed to transfer from the caller.",
-            "caution": "Approval does not move tokens immediately, but it grants spending authority.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "balanceOf(address)",
-          "functionInfo": {
-            "category": "Balances",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the token balance recorded for an address.",
-            "caution": "The returned value uses the token's raw units and decimals.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burn(uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Token holder or authorized caller (state-changing)",
-            "effect": "Destroys a specified amount of tokens under the contract's rules.",
-            "caution": "Burning generally cannot be reversed.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "burnFrom(address,uint256)",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Approved or privileged caller (state-changing)",
-            "effect": "Destroys tokens held by another address using allowance or authority.",
-            "caution": "Check who is permitted to burn another holder's tokens.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "decimals()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns how raw integer token units are displayed as decimal amounts.",
-            "caution": "The on-chain value is authoritative for formatting this contract's units.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "name()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the contract or token name.",
-            "caution": "Display metadata only; it does not prove identity or legitimacy.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "symbol()",
-          "functionInfo": {
-            "category": "Metadata",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the short token symbol.",
-            "caution": "Symbols can be duplicated across different contracts.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "totalSupply()",
-          "functionInfo": {
-            "category": "Supply",
-            "access": "Anyone (read-only)",
-            "effect": "Returns the current total supply recorded by the contract.",
-            "caution": "This is total supply, not necessarily circulating supply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transfer(address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Token holder (state-changing)",
-            "effect": "Moves tokens from the caller to another address.",
-            "caution": "Taxes, restrictions, pauses, or custom transfer logic may apply.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        },
-        {
-          "signature": "transferFrom(address,address,uint256)",
-          "functionInfo": {
-            "category": "Transfers",
-            "access": "Approved spender (state-changing)",
-            "effect": "Moves tokens from one address to another using an allowance or other authorization.",
-            "caution": "Usually reduces allowance; custom contracts may behave differently.",
-            "explanationConfidence": "verified signature + glossary"
-          }
-        }
-      ],
+      "sourceFunctionSignatures": [],
+      "sourceFunctionDetails": [],
       "probes": {
         "owner": null,
         "implementation": null,
@@ -171470,11 +170002,11 @@
         ]
       },
       "source": {
-        "verified": true,
-        "contractName": "ZHENG",
-        "compilerVersion": "v0.8.21+commit.d9974bed",
+        "verified": false,
+        "contractName": null,
+        "compilerVersion": null,
         "proxy": false,
-        "abiFunctionCount": 13
+        "abiFunctionCount": 0
       },
       "discovery": [
         {
@@ -178307,7 +176839,7 @@
         "name": "Ordo Templi Orientis",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "3098879180247264304120578862",
+        "totalSupply": "3101422707863955113860991093",
         "nameAnalysis": {
           "original": "Ordo Templi Orientis",
           "normalized": "Ordo Templi Orientis",
@@ -178843,7 +177375,7 @@
         "name": "Order of the Temple of the East",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "1766463756561258345617813293",
+        "totalSupply": "1809321051733865198183931053",
         "nameAnalysis": {
           "original": "Order of the Temple of the East",
           "normalized": "Order of the Temple of the East",
@@ -179392,7 +177924,7 @@
         "name": "Kate Blockbuster Middleton",
         "symbol": "MISUNDERSTAND®",
         "decimals": 18,
-        "totalSupply": "17862728772425405250494351",
+        "totalSupply": "17862728773467286365118981",
         "nameAnalysis": {
           "original": "Kate Blockbuster Middleton",
           "normalized": "Kate Blockbuster Middleton",
@@ -180000,7 +178532,7 @@
         "name": "Ubu Roi",
         "symbol": "UBWOBA",
         "decimals": 18,
-        "totalSupply": "3771825547688196067139",
+        "totalSupply": "3771826452826770477387",
         "nameAnalysis": {
           "original": "Ubu Roi",
           "normalized": "Ubu Roi",
@@ -180445,7 +178977,7 @@
         "name": "Cutting Crew",
         "symbol": "CREW",
         "decimals": 18,
-        "totalSupply": "7226938077280694939499",
+        "totalSupply": "7226940380036595660462",
         "nameAnalysis": {
           "original": "Cutting Crew",
           "normalized": "Cutting Crew",
@@ -180905,7 +179437,7 @@
         "name": "サイドティック",
         "symbol": "クッィテドイサ",
         "decimals": 18,
-        "totalSupply": "3565063837370804121403",
+        "totalSupply": "3565158771734162658256",
         "nameAnalysis": {
           "original": "サイドティック",
           "normalized": "サイドティック",
@@ -182397,7 +180929,7 @@
         "name": "Cover Teh",
         "symbol": "QUARTERMASTERS",
         "decimals": 18,
-        "totalSupply": "230477404711293934252",
+        "totalSupply": "230479636817305960236",
         "nameAnalysis": {
           "original": "Cover Teh",
           "normalized": "Cover Teh",
@@ -189886,7 +188418,7 @@
         "name": "㉾ տիսդիլլէրփս ալգհէմե ㉾",
         "symbol": "abC^n*",
         "decimals": 18,
-        "totalSupply": "2990535022717871740913663",
+        "totalSupply": "2991455814060958952936597",
         "nameAnalysis": {
           "original": "㉾ տիսդիլլէրփս ալգհէմե ㉾",
           "normalized": "우 տիսդիլլէրփս ալգհէմե 우",
@@ -192765,7 +191297,7 @@
         "name": "Mike Connell Coin",
         "symbol": "2600 ㉾",
         "decimals": 18,
-        "totalSupply": "10688000000000000000000",
+        "totalSupply": "10743000000000000000000",
         "nameAnalysis": {
           "original": "Mike Connell Coin",
           "normalized": "Mike Connell Coin",
@@ -220639,7 +219171,7 @@
         "name": "vePickle",
         "symbol": "DILL",
         "decimals": 18,
-        "totalSupply": "114782323053176527474075",
+        "totalSupply": "108853749259528452903175",
         "nameAnalysis": {
           "original": "vePickle",
           "normalized": "vePickle",
@@ -262289,7 +260821,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 18,
-        "totalSupply": "44362717961171304098289598298",
+        "totalSupply": "44362725723055731744459976665",
         "nameAnalysis": {
           "original": "Dai Stablecoin",
           "normalized": "Dai Stablecoin",
