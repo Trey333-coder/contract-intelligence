@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T17:38:02.433Z",
+  "generatedAt": "2026-11-16T17:08:45.028Z",
   "safety": "READ_ONLY",
   "seedCount": 292,
   "discoveredCount": 684,
@@ -69,7 +69,7 @@
         "name": "Atropa",
         "symbol": "ATROPA",
         "decimals": 18,
-        "totalSupply": "534935996414562435624297550"
+        "totalSupply": "534935995850472442590793098"
       },
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
@@ -9600,7 +9600,7 @@
         "name": "ࠐࠀ",
         "symbol": "࠘ࠓࠩࠐࠬࠀࠫࠋࠠ",
         "decimals": 18,
-        "totalSupply": "66717554000000000000000000"
+        "totalSupply": "66741554000000000000000000"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -10399,7 +10399,7 @@
         "name": "Tristar and Red Sector Incorporated",
         "symbol": "TRSI",
         "decimals": 18,
-        "totalSupply": "1117000000000000000000"
+        "totalSupply": "1153000000000000000000"
       },
       "probes": {
         "owner": "0xa7bc844a76e727ec5250f3849148c21f4b43ceea",
@@ -30490,7 +30490,7 @@
         "name": "One Time Pass Fake",
         "symbol": "OTPF",
         "decimals": 18,
-        "totalSupply": "76678500000000000000000"
+        "totalSupply": "76716500000000000000000"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -33225,7 +33225,7 @@
         "name": "𑀭𑀭𑀭𑀭𑀭",
         "symbol": "BFF",
         "decimals": 18,
-        "totalSupply": "580191326112772021827"
+        "totalSupply": "580191011120368850421"
       },
       "probes": {
         "owner": "0x0000000000000000000000000000000000000000",
@@ -39737,7 +39737,7 @@
         "name": "HEXiKo_O",
         "symbol": "ROYALTY™",
         "decimals": 18,
-        "totalSupply": "3000012095843236039"
+        "totalSupply": "3000012111126779679"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -39832,7 +39832,7 @@
         "name": "Ryerson Department Of Mines",
         "symbol": "NIGGER™",
         "decimals": 18,
-        "totalSupply": "12684235219565111971"
+        "totalSupply": "12686821571277612070"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -39933,7 +39933,7 @@
         "name": "Ditto",
         "symbol": "DIBS™",
         "decimals": 18,
-        "totalSupply": "3000349465697190239"
+        "totalSupply": "3000349594581868239"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -40135,7 +40135,7 @@
         "name": "Warning",
         "symbol": "MUNITION™",
         "decimals": 18,
-        "totalSupply": "3030923419627910188"
+        "totalSupply": "3030943077931101078"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -40785,7 +40785,7 @@
         "name": "Integrative Hedge",
         "symbol": "HEDGE™",
         "decimals": 18,
-        "totalSupply": "1000000874726642197"
+        "totalSupply": "1000000875290022478"
       },
       "probes": {
         "owner": "0x903030f7e2d6489f38b0f4f96f9b371ec7960f78",
@@ -43329,7 +43329,7 @@
         "name": "Random Number Generator",
         "symbol": "RNG",
         "decimals": 18,
-        "totalSupply": "456419536000000000000000000"
+        "totalSupply": "467589265000000000000000000"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -45224,7 +45224,7 @@
         "name": "libAtropaMath v1.1",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "456392085999999999999999999"
+        "totalSupply": "467561798999999999999999999"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -69596,7 +69596,7 @@
         "name": "AFFECTION™",
         "symbol": "Ⓐ",
         "decimals": 18,
-        "totalSupply": "482561401400000000001572863"
+        "totalSupply": "493693529400000000001572863"
       },
       "probes": {
         "owner": "0x7a20189b297343cf26d8548764b04891f37f3414",
@@ -73614,7 +73614,7 @@
         "name": "Tetratricopeptides",
         "symbol": "正",
         "decimals": 18,
-        "totalSupply": "76680202251408283305229866"
+        "totalSupply": "79311548826408283305229866"
       },
       "probes": {
         "owner": null,
@@ -75606,7 +75606,7 @@
         "name": "Ordo Templi Orientis",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "3106990139649691293992207644"
+        "totalSupply": "3112916296943248943800954926"
       },
       "probes": {
         "owner": null,
@@ -75669,7 +75669,7 @@
         "name": "Order of the Temple of the East",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "1883712806554416637461799693"
+        "totalSupply": "1895897389597593554187858727"
       },
       "probes": {
         "owner": null,
@@ -75737,7 +75737,7 @@
         "name": "Kate Blockbuster Middleton",
         "symbol": "MISUNDERSTAND®",
         "decimals": 18,
-        "totalSupply": "17862728783597242594412528"
+        "totalSupply": "17862728788002101527199221"
       },
       "probes": {
         "owner": null,
@@ -75803,7 +75803,7 @@
         "name": "Ubu Roi",
         "symbol": "UBWOBA",
         "decimals": 18,
-        "totalSupply": "3771828833527736210625"
+        "totalSupply": "3771829369029671021455"
       },
       "probes": {
         "owner": null,
@@ -75869,7 +75869,7 @@
         "name": "Cutting Crew",
         "symbol": "CREW",
         "decimals": 18,
-        "totalSupply": "7226940380036595660462"
+        "totalSupply": "7226941027431094096593"
       },
       "probes": {
         "owner": null,
@@ -75940,7 +75940,7 @@
         "name": "サイドティック",
         "symbol": "クッィテドイサ",
         "decimals": 18,
-        "totalSupply": "3565963452303606856382"
+        "totalSupply": "3565970632372576421834"
       },
       "probes": {
         "owner": null,
@@ -76085,7 +76085,7 @@
         "name": "ماریا",
         "symbol": "ヤクザ",
         "decimals": 18,
-        "totalSupply": "145775342649934413852"
+        "totalSupply": "102263329489951834960"
       },
       "probes": {
         "owner": null,
@@ -76159,7 +76159,7 @@
         "name": "Cover Teh",
         "symbol": "QUARTERMASTERS",
         "decimals": 18,
-        "totalSupply": "230479636817305960236"
+        "totalSupply": "230481868923317986220"
       },
       "probes": {
         "owner": null,
@@ -77344,7 +77344,7 @@
         "name": "㉾ مفتی ㉾",
         "symbol": "M㉾FTi",
         "decimals": 18,
-        "totalSupply": "2594780434754432914575743375"
+        "totalSupply": "2605827492245539067121565256"
       },
       "probes": {
         "owner": null,
@@ -77714,7 +77714,7 @@
         "name": "㉾ իգէ և սնով ㉾",
         "symbol": "ICE",
         "decimals": 18,
-        "totalSupply": "295317561946213965553949859"
+        "totalSupply": "301160713515732808698829523"
       },
       "probes": {
         "owner": null,
@@ -77864,7 +77864,7 @@
         "name": "㉾ Ֆէտէրալ Ւիսա Բրոկրամ ㉾",
         "symbol": "V㉾SA",
         "decimals": 18,
-        "totalSupply": "449612689999999999997976"
+        "totalSupply": "479916689999999999997976"
       },
       "probes": {
         "owner": null,
@@ -97781,7 +97781,7 @@
         "name": "vePickle",
         "symbol": "DILL",
         "decimals": 18,
-        "totalSupply": "90894403405509818631480"
+        "totalSupply": "84990343870471990890280"
       },
       "probes": {
         "owner": null,
@@ -116422,7 +116422,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 18,
-        "totalSupply": "44362700861459194452176691637"
+        "totalSupply": "44362743486281068818342184251"
       },
       "probes": {
         "owner": null,
