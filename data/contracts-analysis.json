@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T17:08:45.210Z",
+  "generatedAt": "2026-11-23T19:23:17.680Z",
   "safety": "READ_ONLY",
   "summary": {
     "contracts": 976,
@@ -25,7 +25,7 @@
         "name": "Atropa",
         "symbol": "ATROPA",
         "decimals": 18,
-        "totalSupply": "534935995850472442590793098",
+        "totalSupply": "534935994339821360752087330",
         "nameAnalysis": {
           "original": "Atropa",
           "normalized": "Atropa",
@@ -20010,7 +20010,7 @@
         "name": "ࠐࠀ",
         "symbol": "࠘ࠓࠩࠐࠬࠀࠫࠋࠠ",
         "decimals": 18,
-        "totalSupply": "66741554000000000000000000",
+        "totalSupply": "66779554000000000000000000",
         "nameAnalysis": {
           "original": "ࠐࠀ",
           "normalized": "ࠐࠀ",
@@ -101083,7 +101083,7 @@
         "name": "𑀭𑀭𑀭𑀭𑀭",
         "symbol": "BFF",
         "decimals": 18,
-        "totalSupply": "580191011120368850421",
+        "totalSupply": "580190427585174212835",
         "nameAnalysis": {
           "original": "𑀭𑀭𑀭𑀭𑀭",
           "normalized": "𑀭𑀭𑀭𑀭𑀭",
@@ -132013,7 +132013,7 @@
         "name": "HEXiKo_O",
         "symbol": "ROYALTY™",
         "decimals": 18,
-        "totalSupply": "3000012111126779679",
+        "totalSupply": "3000012122101011397",
         "nameAnalysis": {
           "original": "HEXiKo_O",
           "normalized": "HEXiKo_O",
@@ -132766,7 +132766,7 @@
         "name": "Ryerson Department Of Mines",
         "symbol": "NIGGER™",
         "decimals": 18,
-        "totalSupply": "12686821571277612070",
+        "totalSupply": "12688549152643347655",
         "nameAnalysis": {
           "original": "Ryerson Department Of Mines",
           "normalized": "Ryerson Department Of Mines",
@@ -133583,7 +133583,7 @@
         "name": "Ditto",
         "symbol": "DIBS™",
         "decimals": 18,
-        "totalSupply": "3000349594581868239",
+        "totalSupply": "3000349741713978681",
         "nameAnalysis": {
           "original": "Ditto",
           "normalized": "Ditto",
@@ -135190,7 +135190,7 @@
         "name": "Warning",
         "symbol": "MUNITION™",
         "decimals": 18,
-        "totalSupply": "3030943077931101078",
+        "totalSupply": "3030960292259811201",
         "nameAnalysis": {
           "original": "Warning",
           "normalized": "Warning",
@@ -140537,7 +140537,7 @@
         "name": "Integrative Hedge",
         "symbol": "HEDGE™",
         "decimals": 18,
-        "totalSupply": "1000000875290022478",
+        "totalSupply": "1000000875548102763",
         "nameAnalysis": {
           "original": "Integrative Hedge",
           "normalized": "Integrative Hedge",
@@ -148442,7 +148442,7 @@
         "name": "Random Number Generator",
         "symbol": "RNG",
         "decimals": 18,
-        "totalSupply": "467589265000000000000000000",
+        "totalSupply": "476069557000000000000000000",
         "nameAnalysis": {
           "original": "Random Number Generator",
           "normalized": "Random Number Generator",
@@ -151657,7 +151657,7 @@
         "name": "libAtropaMath v1.1",
         "symbol": "MATH",
         "decimals": 18,
-        "totalSupply": "467561798999999999999999999",
+        "totalSupply": "476042074999999999999999999",
         "nameAnalysis": {
           "original": "libAtropaMath v1.1",
           "normalized": "libAtropaMath v1.1",
@@ -163069,7 +163069,7 @@
         "name": "AFFECTION™",
         "symbol": "Ⓐ",
         "decimals": 18,
-        "totalSupply": "493693529400000000001572863",
+        "totalSupply": "502130830400000000001572863",
         "nameAnalysis": {
           "original": "AFFECTION™",
           "normalized": "AFFECTIONTM",
@@ -170766,7 +170766,7 @@
         "name": "Tetratricopeptides",
         "symbol": "正",
         "decimals": 18,
-        "totalSupply": "79311548826408283305229866",
+        "totalSupply": "83110293687408283305229866",
         "nameAnalysis": {
           "original": "Tetratricopeptides",
           "normalized": "Tetratricopeptides",
@@ -178307,7 +178307,7 @@
         "name": "Ordo Templi Orientis",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "3112916296943248943800954926",
+        "totalSupply": "3114195734407608291120470362",
         "nameAnalysis": {
           "original": "Ordo Templi Orientis",
           "normalized": "Ordo Templi Orientis",
@@ -178843,7 +178843,7 @@
         "name": "Order of the Temple of the East",
         "symbol": "O.T.O.",
         "decimals": 18,
-        "totalSupply": "1895897389597593554187858727",
+        "totalSupply": "1912045944418421947583286084",
         "nameAnalysis": {
           "original": "Order of the Temple of the East",
           "normalized": "Order of the Temple of the East",
@@ -179392,7 +179392,7 @@
         "name": "Kate Blockbuster Middleton",
         "symbol": "MISUNDERSTAND®",
         "decimals": 18,
-        "totalSupply": "17862728788002101527199221",
+        "totalSupply": "17862728790932709452293262",
         "nameAnalysis": {
           "original": "Kate Blockbuster Middleton",
           "normalized": "Kate Blockbuster Middleton",
@@ -180905,7 +180905,7 @@
         "name": "サイドティック",
         "symbol": "クッィテドイサ",
         "decimals": 18,
-        "totalSupply": "3565970632372576421834",
+        "totalSupply": "3568948440321743311983",
         "nameAnalysis": {
           "original": "サイドティック",
           "normalized": "サイドティック",
@@ -181399,7 +181399,7 @@
         "name": "ماریا",
         "symbol": "YAKUZA",
         "decimals": 18,
-        "totalSupply": "181427665998466584651",
+        "totalSupply": "204142897864506324573",
         "nameAnalysis": {
           "original": "ماریا",
           "normalized": "ماریا",
@@ -191593,7 +191593,7 @@
         "name": "㉾ Ֆէտէրալ Ւիսա Բրոկրամ ㉾",
         "symbol": "V㉾SA",
         "decimals": 18,
-        "totalSupply": "479916689999999999997976",
+        "totalSupply": "480314689999999999997976",
         "nameAnalysis": {
           "original": "㉾ Ֆէտէրալ Ւիսա Բրոկրամ ㉾",
           "normalized": "우 Ֆէտէրալ Ւիսա Բրոկրամ 우",
@@ -192765,7 +192765,7 @@
         "name": "Mike Connell Coin",
         "symbol": "2600 ㉾",
         "decimals": 18,
-        "totalSupply": "10827000000000000000000",
+        "totalSupply": "10831000000000000000000",
         "nameAnalysis": {
           "original": "Mike Connell Coin",
           "normalized": "Mike Connell Coin",
@@ -220639,7 +220639,7 @@
         "name": "vePickle",
         "symbol": "DILL",
         "decimals": 18,
-        "totalSupply": "84990343870471990890280",
+        "totalSupply": "79043610532493527358560",
         "nameAnalysis": {
           "original": "vePickle",
           "normalized": "vePickle",
@@ -262289,7 +262289,7 @@
         "name": "Dai Stablecoin",
         "symbol": "DAI",
         "decimals": 18,
-        "totalSupply": "44362743486281068818342184251",
+        "totalSupply": "44362796652222063262890808008",
         "nameAnalysis": {
           "original": "Dai Stablecoin",
           "normalized": "Dai Stablecoin",
